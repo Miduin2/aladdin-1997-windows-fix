@@ -43,6 +43,7 @@
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalOptions>/Brepro %(AdditionalOptions)</AdditionalOptions>
       <ModuleDefinitionFile>exports.def</ModuleDefinitionFile>
       <AdditionalDependencies>dwmapi.lib;dxguid.lib;ole32.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>

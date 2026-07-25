@@ -18,11 +18,11 @@ if errorlevel 1 exit /b %errorlevel%
 cl /nologo /W4 /WX /O2 /MT /DUNICODE /D_UNICODE "%~dp0tests\stub_game.cpp" /link /SUBSYSTEM:WINDOWS /OUT:"%GV_TEST%\ALADDINW.EXE"
 if errorlevel 1 exit /b %errorlevel%
 
-copy /y "%~dp0build\Win32\Release\Jugar Aladdin.exe" "%GV_TEST%\Jugar Aladdin.exe" >nul
+copy /y "%~dp0build\Win32\Release\Play Aladdin.exe" "%GV_TEST%\Play Aladdin.exe" >nul
 copy /y "%~dp0..\gamevaultdraw\build\Win32\Release\ddraw.dll" "%GV_TEST%\ddraw.dll" >nul
 del /q "%GV_TEST%\launcher-stub-result.txt" "%GV_TEST%\GameVaultLauncher.log" 2>nul
 
-start "" /wait "%GV_TEST%\Jugar Aladdin.exe"
+start "" /wait "%GV_TEST%\Play Aladdin.exe"
 if errorlevel 1 exit /b %errorlevel%
 
 powershell.exe -NoProfile -Command "$result = Get-Content -LiteralPath '%GV_TEST%\launcher-stub-result.txt' -Encoding Unicode; if ($result[0] -notmatch '^module=([A-Z]):\\ALADDINW\.EXE$') { throw 'The stub was not launched through a short drive path.' }; $drive = $Matches[1] + ':\'; if (Test-Path -LiteralPath $drive) { throw ('The temporary drive still exists: ' + $drive) }; $log = (Get-Content -LiteralPath '%GV_TEST%\GameVaultLauncher.log') -join [Environment]::NewLine; if ($log -notmatch 'Game exited code=0' -or $log -notmatch 'Cleanup complete') { throw 'The launcher did not finish its cleanup sequence.' }"

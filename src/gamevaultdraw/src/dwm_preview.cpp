@@ -180,7 +180,7 @@ LRESULT CALLBACK PreviewWindowProcedure(
         gamevaultdraw::Trace("WINDOW accessibility: Escape -> exit confirmation");
         const int answer = MessageBoxW(
             window,
-            L"\x00BFSeguro que quieres salir del juego?",
+            L"Are you sure you want to exit the game?",
             L"Disney's Aladdin",
             MB_YESNO | MB_ICONQUESTION | MB_DEFBUTTON2 | MB_APPLMODAL);
         gamevaultdraw::Trace("WINDOW accessibility: exit confirmation result=%d", answer);

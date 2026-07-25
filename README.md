@@ -11,6 +11,12 @@ personally owned physical copy and validated on Windows 10 22H2.
 > artwork or other Disney assets**. You need your own original disc or
 > installation.
 
+![Disney's Aladdin running on Windows 10 in borderless 4:3](docs/images/aladdin-gameplay-windows-10.png)
+
+*Running on Windows 10 in borderless 4:3 at 60 FPS. Screenshot captured from
+the project owner's original physical copy; the pictured game content is not
+covered by this project's MIT licence.*
+
 ## Download and install
 
 1. Open the [latest release](https://github.com/Miduin2/aladdin-1997-windows-fix/releases/latest).
@@ -20,12 +26,12 @@ personally owned physical copy and validated on Windows 10 22H2.
 3. Extract the ZIP.
 4. Copy the contents of its `patch` directory beside your original
    `ALADDINW.EXE` and MIDI files.
-5. Run `Instalar parche.cmd` once.
-6. Start the game with `Jugar Aladdin.exe`.
+5. Run `Install patch.cmd` once.
+6. Start the game with `Play Aladdin.exe`.
 
 The installer verifies the exact original executable before changing anything,
 creates a checked backup and refuses unsupported versions. Run
-`Restaurar original.cmd` to restore the verified original executable.
+`Restore original.cmd` to restore the verified original executable.
 
 ## What it fixes
 
@@ -60,15 +66,19 @@ Only that exact executable is supported. No unknown executable is modified.
 - `docs/VALIDATION.md`: validation record;
 - `diagnostics`: sanitized evidence for the repaired failures.
 
-The compiled `ddraw.dll` and `Jugar Aladdin.exe` are distributed in the
+The compiled `ddraw.dll` and `Play Aladdin.exe` are distributed in the
 release asset, not committed to the source tree.
 
-## Estado en español
+## Validation status
 
-La versión 1.1.0 fue validada con logos, menú, partida, música MIDI, voces,
-efectos, dificultad, reasignación de teclado, páginas Joystick y Keyboard,
-`F2`, `Esc`, barra de tareas y `Alt+Tab`. El parche no incluye ningún archivo
-del juego y solo acepta el ejecutable original cuyo hash aparece arriba.
+Version 1.1.1 was validated with the opening logos, main menu, gameplay, MIDI
+music, voices, sound effects, difficulty changes, keyboard remapping, Joystick
+and Keyboard settings pages, `F2`, `Esc`, taskbar and `Alt+Tab`. The patch
+contains no original game files and accepts only the executable whose hash is
+listed above.
+
+A detailed technical report is also available
+[in Spanish](docs/TECHNICAL_REPORT.es.md).
 
 ## Disclaimer
 

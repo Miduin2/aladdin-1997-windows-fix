@@ -96,15 +96,15 @@ int ShowError(const std::wstring& message, const DWORD error = ERROR_SUCCESS)
     std::wstring full = message;
     if (error != ERROR_SUCCESS)
     {
-        full += L"\n\nDetalle de Windows: ";
+        full += L"\n\nWindows details: ";
         full += Utf16FromSystemMessage(error);
-        full += L"\nCódigo: ";
+        full += L"\nError code: ";
         full += std::to_wstring(error);
     }
-    full += L"\n\nPuedes consultar GameVaultLauncher.log para obtener más información.";
+    full += L"\n\nSee GameVaultLauncher.log for more information.";
     Log(L"ERROR code=%lu message=%ls", error, message.c_str());
     MessageBoxW(
-        nullptr, full.c_str(), L"No se pudo iniciar Disney's Aladdin",
+        nullptr, full.c_str(), L"Disney's Aladdin could not be started",
         MB_OK | MB_ICONERROR | MB_SETFOREGROUND);
     return 1;
 }
@@ -372,20 +372,20 @@ int WINAPI wWinMain(HINSTANCE, HINSTANCE, PWSTR, int)
     const std::wstring directory = ExecutableDirectory();
     if (directory.empty())
     {
-        return ShowError(L"No se pudo determinar la carpeta del lanzador.", GetLastError());
+        return ShowError(L"The launcher directory could not be determined.", GetLastError());
     }
     g_logPath = JoinPath(directory, L"GameVaultLauncher.log");
-    Log(L"Launcher 0.1.0 starting directory=%ls", directory.c_str());
+    Log(L"Launcher 1.1.1 starting directory=%ls", directory.c_str());
 
     const HANDLE mutex = CreateMutexW(nullptr, TRUE, kLauncherMutex);
     if (!mutex)
     {
-        return ShowError(L"No se pudo crear el control de ejecución.", GetLastError());
+        return ShowError(L"The launcher instance control could not be created.", GetLastError());
     }
     if (GetLastError() == ERROR_ALREADY_EXISTS || IsAladdinRunning())
     {
         CloseHandle(mutex);
-        return ShowError(L"Disney's Aladdin ya está abierto. Ciérralo antes de volver a iniciarlo.");
+        return ShowError(L"Disney's Aladdin is already running. Close it before starting it again.");
     }
 
     const std::wstring game = JoinPath(directory, L"ALADDINW.EXE");
@@ -394,8 +394,8 @@ int WINAPI wWinMain(HINSTANCE, HINSTANCE, PWSTR, int)
     {
         CloseHandle(mutex);
         return ShowError(
-            L"Faltan ALADDINW.EXE o ddraw.dll junto al lanzador. "
-            L"No muevas Jugar Aladdin.exe fuera de la carpeta del juego.");
+            L"ALADDINW.EXE or ddraw.dll is missing beside the launcher. "
+            L"Do not move Play Aladdin.exe outside the game directory.");
     }
 
     const std::wstring pendingDdraw = JoinPath(directory, L"ddraw.next.dll");
@@ -405,7 +405,7 @@ int WINAPI wWinMain(HINSTANCE, HINSTANCE, PWSTR, int)
         {
             const DWORD error = GetLastError();
             CloseHandle(mutex);
-            return ShowError(L"No se pudo actualizar la capa gráfica.", error);
+            return ShowError(L"The graphics compatibility layer could not be updated.", error);
         }
         DeleteFileW(pendingDdraw.c_str());
         Log(L"Applied pending ddraw.next.dll");
@@ -418,14 +418,14 @@ int WINAPI wWinMain(HINSTANCE, HINSTANCE, PWSTR, int)
     if (cleanup.subst.empty() || !cleanup.drive)
     {
         CloseHandle(mutex);
-        return ShowError(L"No hay una letra de unidad temporal disponible.");
+        return ShowError(L"No temporary drive letter is available.");
     }
     if (!MapDrive(cleanup.subst, cleanup.drive, directory))
     {
         const DWORD error = GetLastError();
         cleanup.drive = L'\0';
         CloseHandle(mutex);
-        return ShowError(L"No se pudo crear la ruta corta temporal del juego.", error);
+        return ShowError(L"The temporary short path for the game could not be created.", error);
     }
 
     const std::wstring virtualRoot = std::wstring(1, cleanup.drive) + L":\\";
@@ -445,7 +445,7 @@ int WINAPI wWinMain(HINSTANCE, HINSTANCE, PWSTR, int)
     {
         const DWORD error = GetLastError();
         CloseHandle(mutex);
-        return ShowError(L"Windows no pudo abrir ALADDINW.EXE.", error);
+        return ShowError(L"Windows could not open ALADDINW.EXE.", error);
     }
 
     CloseHandle(process.hThread);

@@ -1,8 +1,18 @@
 # Changelog
 
+## 1.1.1 — 2026-07-25
+
+- Renamed the public launcher to `Play Aladdin.exe`.
+- Renamed and translated the install and restore scripts.
+- Translated launcher errors and the in-game exit confirmation to English.
+- Added a verified, metadata-safe gameplay screenshot to the project page.
+- Enabled reproducible PE linking for stable public binary hashes.
+- Preserved all gameplay, rendering, timing and Windows integration fixes from
+  version 1.1.0.
+
 ## 1.1.0 — 2026-07-22
 
-- Added native console-free `Jugar Aladdin.exe` launcher.
+- Added native console-free launcher (originally named `Jugar Aladdin.exe`).
 - Added `F2` access to the original Properties panel.
 - Added safe `Esc` exit confirmation.
 - Fixed crashes in all Joystick and Keyboard property-page controls.

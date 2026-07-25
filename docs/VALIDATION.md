@@ -15,16 +15,19 @@ preview, F2, Esc, difficulty, Joystick, Keyboard and remapping passed.
 That private launcher embedded an icon extracted from the owned game. It is
 preserved only in the private validation workspace and is **not** distributed.
 
-## Public binaries
+## Public binaries — 1.1.1
 
 The public DLL SHA-256 is
-`778294553D7F39D49204330303E474377254FED5C67BA7511037948DD62FF443`
+`B2200A365FB371DE34FFD87734086B4D3DF4174FED85F91FDD2E0B6660C05C27`
 and the public launcher SHA-256 is
-`A358C5731A67524C28787BF866E20183ECE36B5171364471DFF0D4A25F97019D`.
+`44BA3FB33C0FFF64E31198CD5FE6810E10BF5C059656F06F020B620279FDF300`.
 They are built from the same functional source after removing the third-party
-icon and embedded local PDB paths. The following passed:
+icon and embedded local PDB paths. Version 1.1.1 changes only public naming,
+English user-facing text, version metadata and the exit prompt; the validated
+rendering and input paths are unchanged. The following passed:
 
 - x86 Release build;
+- two consecutive clean builds with identical SHA-256 output;
 - native launcher integration test with a stub game;
 - temporary `SUBST` path creation and removal;
 - hidden/no-console launch and clean exit;
@@ -33,6 +36,10 @@ icon and embedded local PDB paths. The following passed:
 - Microsoft Defender custom scan: zero detections for the release directory.
 - privacy scan: no user profile paths, credentials, e-mail addresses or
   network identifiers in the public package.
+
+The README gameplay image was separately audited. It contains only standard
+PNG image, colour and resolution chunks, with no EXIF, textual metadata, user
+paths or account information.
 
 ## Diagnostic counts
 

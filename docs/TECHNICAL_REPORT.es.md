@@ -2,7 +2,7 @@
 
 ## Resultado
 
-GameVaultDraw 1.1.0 ejecuta la conversión Windows incluida en *Disney Classic
+GameVaultDraw 1.1.1 ejecuta la conversión Windows incluida en *Disney Classic
 Video Games* (1997) sin máquina virtual, sin cambiar la resolución de Windows y
 sin depender de wrappers genéricos. La prueba final cubrió una partida real,
 audio completo, 60 FPS, pantalla sin bordes 4:3, Alt+Tab, miniaturas DWM, cambio

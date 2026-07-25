@@ -8,14 +8,14 @@ $ErrorActionPreference = 'Stop'
 $originalSha256 = '77B7B7B03F80BAD087E23217D4CDCA51A5F93C550D0FF290B22EC7FB4694C209'
 $patchedSha256 = '8CE7F608D1BFEF1F67B5495D33653ED602B1CA05BBFC521255D9D6DF48FB4740'
 $componentHashes = @{
-    'ddraw.dll' = '778294553D7F39D49204330303E474377254FED5C67BA7511037948DD62FF443'
+    'ddraw.dll' = 'B2200A365FB371DE34FFD87734086B4D3DF4174FED85F91FDD2E0B6660C05C27'
     'GameVaultDraw.ini' = '57E0DF9C9C29CC8B147D400C917171ABACB6AC21DB5B01B758DCA07396E58167'
-    'Jugar Aladdin.exe' = 'A358C5731A67524C28787BF866E20183ECE36B5171364471DFF0D4A25F97019D'
+    'Play Aladdin.exe' = '44BA3FB33C0FFF64E31198CD5FE6810E10BF5C059656F06F020B620279FDF300'
 }
 $edits = @(
-    @{ Offset = 0x2E0B; Before = 0x73; After = 0xEB; Purpose = 'comprobacion de profundidad de color' },
-    @{ Offset = 0x8992; Before = 0xFA; After = 0x90; Purpose = 'instruccion CLI privilegiada' },
-    @{ Offset = 0x89A0; Before = 0xFB; After = 0x90; Purpose = 'instruccion STI privilegiada' }
+    @{ Offset = 0x2E0B; Before = 0x73; After = 0xEB; Purpose = 'colour-depth check' },
+    @{ Offset = 0x8992; Before = 0xFA; After = 0x90; Purpose = 'privileged CLI instruction' },
+    @{ Offset = 0x89A0; Before = 0xFB; After = 0x90; Purpose = 'privileged STI instruction' }
 )
 
 function Get-Sha256([string]$Path) {
@@ -29,33 +29,33 @@ try {
     $temporary = Join-Path $gameRoot 'ALADDINW.EXE.gamevault-new'
 
     if (-not (Test-Path -LiteralPath $target -PathType Leaf)) {
-        throw "No se encontro ALADDINW.EXE en: $gameRoot"
+        throw "ALADDINW.EXE was not found in: $gameRoot"
     }
     foreach ($component in $componentHashes.GetEnumerator()) {
         $componentPath = Join-Path $gameRoot $component.Key
         if (-not (Test-Path -LiteralPath $componentPath -PathType Leaf)) {
-            throw "Falta el componente del parche: $($component.Key)"
+            throw "A patch component is missing: $($component.Key)"
         }
         $actual = Get-Sha256 $componentPath
         if ($actual -ne $component.Value) {
-            throw "El componente $($component.Key) no coincide con la version 1.1.0 oficial.`nEsperado: $($component.Value)`nObtenido: $actual"
+            throw "Component $($component.Key) does not match the official version 1.1.1.`nExpected: $($component.Value)`nActual: $actual"
         }
     }
 
     $targetHash = Get-Sha256 $target
     if ($targetHash -eq $patchedSha256) {
-        Write-Host 'El ejecutable ya tiene aplicado el parche GameVaultDraw 1.1.0.' -ForegroundColor Green
-        Write-Host 'Para jugar, abre: Jugar Aladdin.exe'
+        Write-Host 'The GameVaultDraw 1.1.1 patch is already installed.' -ForegroundColor Green
+        Write-Host 'To play, open: Play Aladdin.exe'
         exit 0
     }
     if ($targetHash -ne $originalSha256) {
-        throw "Esta edicion de ALADDINW.EXE no esta soportada y no se modificara.`nEsperado: $originalSha256`nObtenido: $targetHash"
+        throw "This ALADDINW.EXE edition is not supported and will not be modified.`nExpected: $originalSha256`nActual: $targetHash"
     }
 
     if (Test-Path -LiteralPath $backup -PathType Leaf) {
         $backupHash = Get-Sha256 $backup
         if ($backupHash -ne $originalSha256) {
-            throw "Ya existe una copia de seguridad desconocida: $backup"
+            throw "An unknown backup already exists: $backup"
         }
     } else {
         [IO.File]::Copy($target, $backup, $false)
@@ -64,7 +64,7 @@ try {
     $bytes = [IO.File]::ReadAllBytes($target)
     foreach ($edit in $edits) {
         if ($bytes[$edit.Offset] -ne $edit.Before) {
-            throw ('Byte inesperado en 0x{0:X}: se esperaba 0x{1:X2} y se encontro 0x{2:X2} ({3}).' -f $edit.Offset, $edit.Before, $bytes[$edit.Offset], $edit.Purpose)
+            throw ('Unexpected byte at 0x{0:X}: expected 0x{1:X2}, found 0x{2:X2} ({3}).' -f $edit.Offset, $edit.Before, $bytes[$edit.Offset], $edit.Purpose)
         }
         $bytes[$edit.Offset] = [byte]$edit.After
     }
@@ -73,13 +73,13 @@ try {
     $resultHash = Get-Sha256 $temporary
     if ($resultHash -ne $patchedSha256) {
         Remove-Item -LiteralPath $temporary -Force -ErrorAction SilentlyContinue
-        throw "La verificacion final fallo. ALADDINW.EXE original se conserva intacto.`nEsperado: $patchedSha256`nObtenido: $resultHash"
+        throw "Final verification failed. The original ALADDINW.EXE remains unchanged.`nExpected: $patchedSha256`nActual: $resultHash"
     }
 
     Move-Item -LiteralPath $temporary -Destination $target -Force
-    Write-Host 'Parche instalado y verificado correctamente.' -ForegroundColor Green
-    Write-Host "Original conservado en: $backup"
-    Write-Host 'Para jugar, abre: Jugar Aladdin.exe'
+    Write-Host 'Patch installed and verified successfully.' -ForegroundColor Green
+    Write-Host "Original preserved at: $backup"
+    Write-Host 'To play, open: Play Aladdin.exe'
     exit 0
 } catch {
     if ($temporary -and (Test-Path -LiteralPath $temporary)) {

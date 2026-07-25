@@ -1,25 +1,25 @@
 # GameVault Launcher
 
-Lanzador nativo y sin consola para la edicion portable de Disney's Aladdin.
+Native, console-free launcher for the portable edition of Disney's Aladdin.
 
-Responsabilidades:
+Responsibilities:
 
-- comprueba que no exista otra instancia del juego;
-- aplica una posible actualizacion `ddraw.next.dll`;
-- rota el registro anterior de GameVaultDraw;
-- crea una ruta corta temporal mediante `SUBST` para evitar el desbordamiento
-  del comando MCI MIDI del ejecutable de 1996;
-- elimina temporalmente cualquier capa de compatibilidad asociada a esa ruta;
-- inicia `ALADDINW.EXE`, espera su cierre y restaura siempre registro, entorno,
-  resolucion y unidad temporal;
-- muestra errores mediante cuadros de dialogo y escribe
+- checks that another game instance is not already running;
+- applies a pending `ddraw.next.dll` update;
+- rotates the previous GameVaultDraw log;
+- creates a temporary short path with `SUBST` to prevent the 1996
+  executable's MCI MIDI command buffer overflow;
+- temporarily removes compatibility layers associated with that short path;
+- starts `ALADDINW.EXE`, waits for it to close and always restores registry,
+  environment, display mode and temporary drive state;
+- displays errors in dialog boxes and writes
   `GameVaultLauncher.log`.
 
-La consola y PowerShell no forman parte del flujo normal de usuario.
+Neither a console window nor PowerShell is part of the normal launch flow.
 
-La versión 0.1.0 del lanzador forma parte de GameVaultDraw 1.1.0 y fue validada
-con el juego real. Su SHA-256 oficial es
-`A358C5731A67524C28787BF866E20183ECE36B5171364471DFF0D4A25F97019D`.
+Launcher version 1.1.1 is part of GameVaultDraw 1.1.1 and was validated with
+the original game. Its official SHA-256 is
+`44BA3FB33C0FFF64E31198CD5FE6810E10BF5C059656F06F020B620279FDF300`.
 
-La compilación pública no incrusta el icono extraído del juego original. Así el
-parche puede distribuirse sin incluir recursos gráficos de Disney.
+The public build does not embed an icon extracted from the original game, so
+the patch can be distributed without including Disney artwork.
