@@ -1,0 +1,627 @@
+23:41:03.709 [tid=1364] Exception observer installation handle=005784B8
+23:41:03.709 [tid=1364] INPUT compatibility installation: SetWindowLongA=1 CallWindowProcA=1
+23:41:03.710 [tid=1364] Loaded system DirectDraw from C:\Windows\system32\ddraw.dll
+23:41:03.711 [tid=1364] DirectDrawCreate guid=00000000 outer=00000000
+23:41:03.758 [tid=1364] DirectDrawCreate(system) -> HRESULT=0x00000000 object=0872B898
+23:41:03.758 [tid=1364] IDirectDraw wrapper created: real=0872B898 wrapper=0872CC78
+23:41:03.758 [tid=1364] IDirectDraw::SetCooperativeLevel hwnd=00280888 flags=0x00000008
+23:41:03.758 [tid=1364] IDirectDraw::SetCooperativeLevel -> HRESULT=0x00000000
+23:41:03.761 [tid=1364] DWM custom preview attached: hwnd=00280888 force=0x00000000 bitmap=0x00000000 invalidate=0x00000000
+23:41:03.761 [tid=1364] Presentation window registered: hwnd=00280888
+23:41:03.761 [tid=1364] IDirectDraw::CreateSurface input: size=108 flags=0x00000001 width=0 height=0 pitch=2036168 caps=0x00000200 pfFlags=0x763C7EE0 rgbBits=916804
+23:41:03.761 [tid=1364] IDirectDraw::CreateSurface -> HRESULT=0x00000000 object=0872E7C8 outer=00000000
+23:41:03.761 [tid=1364] IDirectDraw::CreateSurface output: size=108 flags=0x00000001 width=0 height=0 pitch=2036168 caps=0x00000200 pfFlags=0x763C7EE0 rgbBits=916804
+23:41:03.761 [tid=1364] IDirectDrawSurface wrapper created: real=0872E7C8 wrapper=0872F268 primary=1
+23:41:03.761 [tid=1364] IDirectDraw::CreateSurface wrap -> HRESULT=0x00000000
+23:41:03.761 [tid=1364] IDirectDrawSurface::GetPixelFormat -> HRESULT=0x00000000 flags=0x00000040 bits=32
+23:41:03.761 [tid=1364] IDirectDraw::CreateSurface input: size=108 flags=0x00000007 width=320 height=216 pitch=2036168 caps=0x00000840 pfFlags=0x763C7EE0 rgbBits=916804
+23:41:03.762 [tid=1364] IDirectDraw::CreateSurface -> HRESULT=0x00000000 object=0872F428 outer=00000000
+23:41:03.762 [tid=1364] IDirectDraw::CreateSurface output: size=108 flags=0x00000007 width=320 height=216 pitch=2036168 caps=0x00000840 pfFlags=0x763C7EE0 rgbBits=916804
+23:41:03.762 [tid=1364] IDirectDrawSurface wrapper created: real=0872F428 wrapper=08773728 primary=0
+23:41:03.762 [tid=1364] IDirectDraw::CreateSurface wrap -> HRESULT=0x00000000
+23:41:03.762 [tid=1364] IDirectDraw::CreateClipper flags=0x00000000 outer=00000000
+23:41:03.762 [tid=1364] IDirectDraw::CreateClipper -> HRESULT=0x00000000 object=087737B8
+23:41:03.762 [tid=1364] IDirectDrawSurface::SetClipper clipper=087737B8
+23:41:03.762 [tid=1364] IDirectDrawSurface::SetClipper -> HRESULT=0x00000000
+23:41:03.762 [tid=1364] IDirectDrawSurface::GetPixelFormat -> HRESULT=0x00000000 flags=0x00000040 bits=32
+23:41:03.762 [tid=1364] IDirectDraw::CreatePalette flags=0x00000044 entries=0044072C outer=00000000
+23:41:03.762 [tid=1364] IDirectDraw::CreatePalette -> HRESULT=0x00000000 object=08773C48
+23:41:03.763 [tid=1364] IDirectDrawPalette wrapper created: real=08773C48 wrapper=08773C68
+23:41:03.763 [tid=1364] IDirectDraw::CreatePalette wrap -> HRESULT=0x00000000
+23:41:03.763 [tid=1364] IDirectDrawSurface::Lock #1 this=08773728 flags=0x00000001 event=00000000
+23:41:03.763 [tid=1364] IDirectDrawSurface::Lock -> HRESULT=0x00000000
+23:41:03.763 [tid=1364] IDirectDrawSurface::Lock output: flags=0x0000100F width=320 height=216 pitch=1280 surface=0872F450 caps=0x00000840 pfFlags=0x00000040 rgbBits=32
+23:41:03.763 [tid=1364] IDirectDrawSurface::Unlock #1 this=08773728 surface=00000000
+23:41:03.763 [tid=1364] IDirectDrawSurface::Unlock -> HRESULT=0x00000000
+23:41:03.764 [tid=1364] Presentation configuration: fullscreen=1 aspect=4:3 frameLimit=60 ini=V:\GameVaultDraw.ini
+23:41:03.769 [tid=1364] WINDOW focus message=0x0006 wParam=0x0 lParam=0x0 focus=00280888 foreground=001B083C
+23:41:03.769 [tid=1364] WINDOW focus message=0x001C wParam=0x0 lParam=0x3AB4 focus=00280888 foreground=001B083C
+23:41:03.769 [tid=1364] WINDOW focus message=0x0008 wParam=0x0 lParam=0x0 focus=00000000 foreground=001B083C
+23:41:03.770 [tid=1364] Native application menu before borderless conversion: menu=0718093B items=3
+23:41:03.771 [tid=1364] IDirectDrawSurface::SetPalette this=0872F268 palette=08773C68
+23:41:03.771 [tid=1364] IDirectDrawSurface::SetPalette -> HRESULT=0x88760091
+23:41:03.771 [tid=1364] IDirectDrawPalette::AddRef -> 2
+23:41:03.771 [tid=1364] IDirectDrawSurface::SetPalette(virtual) -> HRESULT=0x00000000
+23:41:03.775 [tid=1364] WINDOW focus message=0x001C wParam=0x1 lParam=0x3AB4 focus=00000000 foreground=00280888
+23:41:03.775 [tid=1364] WINDOW focus message=0x0006 wParam=0x1 lParam=0x0 focus=00000000 foreground=00280888
+23:41:03.776 [tid=1364] WINDOW focus message=0x0007 wParam=0x0 lParam=0x0 focus=00280888 foreground=00280888
+23:41:03.776 [tid=1364] IDirectDrawSurface::SetPalette this=0872F268 palette=08773C68
+23:41:03.776 [tid=1364] IDirectDrawSurface::SetPalette -> HRESULT=0x88760091
+23:41:03.776 [tid=1364] IDirectDrawPalette::AddRef -> 3
+23:41:03.777 [tid=1364] IDirectDrawPalette::Release -> wrapper=2 real=2
+23:41:03.777 [tid=1364] IDirectDrawSurface::SetPalette(virtual) -> HRESULT=0x00000000
+23:41:03.778 [tid=1364] IDirectDrawSurface::SetPalette this=0872F268 palette=08773C68
+23:41:03.778 [tid=1364] IDirectDrawSurface::SetPalette -> HRESULT=0x88760091
+23:41:03.778 [tid=1364] IDirectDrawPalette::AddRef -> 3
+23:41:03.778 [tid=1364] IDirectDrawPalette::Release -> wrapper=2 real=2
+23:41:03.778 [tid=1364] IDirectDrawSurface::SetPalette(virtual) -> HRESULT=0x00000000
+23:41:03.779 [tid=1364] IDirectDrawSurface::SetPalette this=0872F268 palette=08773C68
+23:41:03.779 [tid=1364] IDirectDrawSurface::SetPalette -> HRESULT=0x88760091
+23:41:03.779 [tid=1364] IDirectDrawPalette::AddRef -> 3
+23:41:03.779 [tid=1364] IDirectDrawPalette::Release -> wrapper=2 real=2
+23:41:03.779 [tid=1364] IDirectDrawSurface::SetPalette(virtual) -> HRESULT=0x00000000
+23:41:03.780 [tid=1364] IDirectDrawSurface::SetPalette this=0872F268 palette=08773C68
+23:41:03.780 [tid=1364] IDirectDrawSurface::SetPalette -> HRESULT=0x88760091
+23:41:03.781 [tid=1364] IDirectDrawPalette::AddRef -> 3
+23:41:03.781 [tid=1364] IDirectDrawPalette::Release -> wrapper=2 real=2
+23:41:03.781 [tid=1364] IDirectDrawSurface::SetPalette(virtual) -> HRESULT=0x00000000
+23:41:03.782 [tid=1364] IDirectDrawSurface::SetPalette this=0872F268 palette=08773C68
+23:41:03.782 [tid=1364] IDirectDrawSurface::SetPalette -> HRESULT=0x88760091
+23:41:03.782 [tid=1364] IDirectDrawPalette::AddRef -> 3
+23:41:03.782 [tid=1364] IDirectDrawPalette::Release -> wrapper=2 real=2
+23:41:03.783 [tid=1364] IDirectDrawSurface::SetPalette(virtual) -> HRESULT=0x00000000
+23:41:03.783 [tid=1364] IDirectDrawSurface::SetPalette this=0872F268 palette=08773C68
+23:41:03.784 [tid=1364] IDirectDrawSurface::SetPalette -> HRESULT=0x88760091
+23:41:03.784 [tid=1364] IDirectDrawPalette::AddRef -> 3
+23:41:03.784 [tid=1364] IDirectDrawPalette::Release -> wrapper=2 real=2
+23:41:03.784 [tid=1364] IDirectDrawSurface::SetPalette(virtual) -> HRESULT=0x00000000
+23:41:03.785 [tid=1364] IDirectDrawSurface::SetPalette this=0872F268 palette=08773C68
+23:41:03.785 [tid=1364] IDirectDrawSurface::SetPalette -> HRESULT=0x88760091
+23:41:03.785 [tid=1364] IDirectDrawPalette::AddRef -> 3
+23:41:03.785 [tid=1364] IDirectDrawPalette::Release -> wrapper=2 real=2
+23:41:03.785 [tid=1364] IDirectDrawSurface::SetPalette(virtual) -> HRESULT=0x00000000
+23:41:03.787 [tid=1364] IDirectDrawSurface::SetPalette this=0872F268 palette=08773C68
+23:41:03.787 [tid=1364] IDirectDrawSurface::SetPalette -> HRESULT=0x88760091
+23:41:03.787 [tid=1364] IDirectDrawPalette::AddRef -> 3
+23:41:03.787 [tid=1364] IDirectDrawPalette::Release -> wrapper=2 real=2
+23:41:03.787 [tid=1364] IDirectDrawSurface::SetPalette(virtual) -> HRESULT=0x00000000
+23:41:03.788 [tid=1364] IDirectDrawSurface::SetPalette this=0872F268 palette=08773C68
+23:41:03.789 [tid=1364] IDirectDrawSurface::SetPalette -> HRESULT=0x88760091
+23:41:03.789 [tid=1364] IDirectDrawPalette::AddRef -> 3
+23:41:03.789 [tid=1364] IDirectDrawPalette::Release -> wrapper=2 real=2
+23:41:03.789 [tid=1364] IDirectDrawSurface::SetPalette(virtual) -> HRESULT=0x00000000
+23:41:03.790 [tid=1364] IDirectDrawSurface::SetPalette this=0872F268 palette=08773C68
+23:41:03.790 [tid=1364] IDirectDrawSurface::SetPalette -> HRESULT=0x88760091
+23:41:03.791 [tid=1364] IDirectDrawPalette::AddRef -> 3
+23:41:03.791 [tid=1364] IDirectDrawPalette::Release -> wrapper=2 real=2
+23:41:03.791 [tid=1364] IDirectDrawSurface::SetPalette(virtual) -> HRESULT=0x00000000
+23:41:03.792 [tid=1364] IDirectDrawSurface::SetPalette this=0872F268 palette=08773C68
+23:41:03.792 [tid=1364] IDirectDrawSurface::SetPalette -> HRESULT=0x88760091
+23:41:03.792 [tid=1364] IDirectDrawPalette::AddRef -> 3
+23:41:03.792 [tid=1364] IDirectDrawPalette::Release -> wrapper=2 real=2
+23:41:03.792 [tid=1364] IDirectDrawSurface::SetPalette(virtual) -> HRESULT=0x00000000
+23:41:03.793 [tid=1364] IDirectDrawSurface::SetPalette this=0872F268 palette=08773C68
+23:41:03.793 [tid=1364] IDirectDrawSurface::SetPalette -> HRESULT=0x88760091
+23:41:03.793 [tid=1364] IDirectDrawPalette::AddRef -> 3
+23:41:03.793 [tid=1364] IDirectDrawPalette::Release -> wrapper=2 real=2
+23:41:03.793 [tid=1364] IDirectDrawSurface::SetPalette(virtual) -> HRESULT=0x00000000
+23:41:03.793 [tid=1364] IDirectDrawSurface::SetPalette this=0872F268 palette=08773C68
+23:41:03.793 [tid=1364] IDirectDrawSurface::SetPalette -> HRESULT=0x88760091
+23:41:03.793 [tid=1364] IDirectDrawPalette::AddRef -> 3
+23:41:03.794 [tid=1364] IDirectDrawPalette::Release -> wrapper=2 real=2
+23:41:03.794 [tid=1364] IDirectDrawSurface::SetPalette(virtual) -> HRESULT=0x00000000
+23:41:03.794 [tid=1364] IDirectDrawSurface::SetPalette this=0872F268 palette=08773C68
+23:41:03.794 [tid=1364] IDirectDrawSurface::SetPalette -> HRESULT=0x88760091
+23:41:03.795 [tid=1364] IDirectDrawPalette::AddRef -> 3
+23:41:03.795 [tid=1364] IDirectDrawPalette::Release -> wrapper=2 real=2
+23:41:03.795 [tid=1364] IDirectDrawSurface::SetPalette(virtual) -> HRESULT=0x00000000
+23:41:03.795 [tid=1364] IDirectDrawSurface::SetPalette this=0872F268 palette=08773C68
+23:41:03.795 [tid=1364] IDirectDrawSurface::SetPalette -> HRESULT=0x88760091
+23:41:03.795 [tid=1364] IDirectDrawPalette::AddRef -> 3
+23:41:03.795 [tid=1364] IDirectDrawPalette::Release -> wrapper=2 real=2
+23:41:03.796 [tid=1364] IDirectDrawSurface::SetPalette(virtual) -> HRESULT=0x00000000
+23:41:03.796 [tid=1364] IDirectDrawSurface::SetPalette this=0872F268 palette=08773C68
+23:41:03.796 [tid=1364] IDirectDrawSurface::SetPalette -> HRESULT=0x88760091
+23:41:03.796 [tid=1364] IDirectDrawPalette::AddRef -> 3
+23:41:03.796 [tid=1364] IDirectDrawPalette::Release -> wrapper=2 real=2
+23:41:03.796 [tid=1364] IDirectDrawSurface::SetPalette(virtual) -> HRESULT=0x00000000
+23:41:03.797 [tid=1364] IDirectDrawSurface::SetPalette this=0872F268 palette=08773C68
+23:41:03.797 [tid=1364] IDirectDrawSurface::SetPalette -> HRESULT=0x88760091
+23:41:03.797 [tid=1364] IDirectDrawPalette::AddRef -> 3
+23:41:03.797 [tid=1364] IDirectDrawPalette::Release -> wrapper=2 real=2
+23:41:03.797 [tid=1364] IDirectDrawSurface::SetPalette(virtual) -> HRESULT=0x00000000
+23:41:03.798 [tid=1364] IDirectDrawSurface::SetPalette this=0872F268 palette=08773C68
+23:41:03.798 [tid=1364] IDirectDrawSurface::SetPalette -> HRESULT=0x88760091
+23:41:03.798 [tid=1364] IDirectDrawPalette::AddRef -> 3
+23:41:03.798 [tid=1364] IDirectDrawPalette::Release -> wrapper=2 real=2
+23:41:03.798 [tid=1364] IDirectDrawSurface::SetPalette(virtual) -> HRESULT=0x00000000
+23:41:03.799 [tid=1364] IDirectDrawSurface::SetPalette this=0872F268 palette=08773C68
+23:41:03.799 [tid=1364] IDirectDrawSurface::SetPalette -> HRESULT=0x88760091
+23:41:03.799 [tid=1364] IDirectDrawPalette::AddRef -> 3
+23:41:03.799 [tid=1364] IDirectDrawPalette::Release -> wrapper=2 real=2
+23:41:03.800 [tid=1364] IDirectDrawSurface::SetPalette(virtual) -> HRESULT=0x00000000
+23:41:03.800 [tid=1364] IDirectDrawSurface::SetPalette this=0872F268 palette=08773C68
+23:41:03.800 [tid=1364] IDirectDrawSurface::SetPalette -> HRESULT=0x88760091
+23:41:03.801 [tid=1364] IDirectDrawPalette::AddRef -> 3
+23:41:03.801 [tid=1364] IDirectDrawPalette::Release -> wrapper=2 real=2
+23:41:03.801 [tid=1364] IDirectDrawSurface::SetPalette(virtual) -> HRESULT=0x00000000
+23:41:03.801 [tid=1364] IDirectDrawSurface::SetPalette this=0872F268 palette=08773C68
+23:41:03.802 [tid=1364] IDirectDrawSurface::SetPalette -> HRESULT=0x88760091
+23:41:03.802 [tid=1364] IDirectDrawPalette::AddRef -> 3
+23:41:03.802 [tid=1364] IDirectDrawPalette::Release -> wrapper=2 real=2
+23:41:03.802 [tid=1364] IDirectDrawSurface::SetPalette(virtual) -> HRESULT=0x00000000
+23:41:03.802 [tid=1364] IDirectDrawSurface::SetPalette this=0872F268 palette=08773C68
+23:41:03.803 [tid=1364] IDirectDrawSurface::SetPalette -> HRESULT=0x88760091
+23:41:03.803 [tid=1364] IDirectDrawPalette::AddRef -> 3
+23:41:03.803 [tid=1364] IDirectDrawPalette::Release -> wrapper=2 real=2
+23:41:03.803 [tid=1364] IDirectDrawSurface::SetPalette(virtual) -> HRESULT=0x00000000
+23:41:03.803 [tid=1364] IDirectDrawSurface::SetPalette this=0872F268 palette=08773C68
+23:41:03.804 [tid=1364] IDirectDrawSurface::SetPalette -> HRESULT=0x88760091
+23:41:03.804 [tid=1364] IDirectDrawPalette::AddRef -> 3
+23:41:03.804 [tid=1364] IDirectDrawPalette::Release -> wrapper=2 real=2
+23:41:03.804 [tid=1364] IDirectDrawSurface::SetPalette(virtual) -> HRESULT=0x00000000
+23:41:03.804 [tid=1364] IDirectDrawSurface::SetPalette this=0872F268 palette=08773C68
+23:41:03.805 [tid=1364] IDirectDrawSurface::SetPalette -> HRESULT=0x88760091
+23:41:03.805 [tid=1364] IDirectDrawPalette::AddRef -> 3
+23:41:03.805 [tid=1364] IDirectDrawPalette::Release -> wrapper=2 real=2
+23:41:03.805 [tid=1364] IDirectDrawSurface::SetPalette(virtual) -> HRESULT=0x00000000
+23:41:03.806 [tid=1364] IDirectDrawSurface::SetPalette this=0872F268 palette=08773C68
+23:41:03.806 [tid=1364] IDirectDrawSurface::SetPalette -> HRESULT=0x88760091
+23:41:03.806 [tid=1364] IDirectDrawPalette::AddRef -> 3
+23:41:03.806 [tid=1364] IDirectDrawPalette::Release -> wrapper=2 real=2
+23:41:03.806 [tid=1364] IDirectDrawSurface::SetPalette(virtual) -> HRESULT=0x00000000
+23:41:03.807 [tid=1364] IDirectDrawSurface::SetPalette this=0872F268 palette=08773C68
+23:41:03.807 [tid=1364] IDirectDrawSurface::SetPalette -> HRESULT=0x88760091
+23:41:03.807 [tid=1364] IDirectDrawPalette::AddRef -> 3
+23:41:03.807 [tid=1364] IDirectDrawPalette::Release -> wrapper=2 real=2
+23:41:03.807 [tid=1364] IDirectDrawSurface::SetPalette(virtual) -> HRESULT=0x00000000
+23:41:03.808 [tid=1364] IDirectDrawSurface::SetPalette this=0872F268 palette=08773C68
+23:41:03.808 [tid=1364] IDirectDrawSurface::SetPalette -> HRESULT=0x88760091
+23:41:03.808 [tid=1364] IDirectDrawPalette::AddRef -> 3
+23:41:03.808 [tid=1364] IDirectDrawPalette::Release -> wrapper=2 real=2
+23:41:03.808 [tid=1364] IDirectDrawSurface::SetPalette(virtual) -> HRESULT=0x00000000
+23:41:03.809 [tid=1364] IDirectDrawSurface::SetPalette this=0872F268 palette=08773C68
+23:41:03.809 [tid=1364] IDirectDrawSurface::SetPalette -> HRESULT=0x88760091
+23:41:03.809 [tid=1364] IDirectDrawPalette::AddRef -> 3
+23:41:03.809 [tid=1364] IDirectDrawPalette::Release -> wrapper=2 real=2
+23:41:03.809 [tid=1364] IDirectDrawSurface::SetPalette(virtual) -> HRESULT=0x00000000
+23:41:03.810 [tid=1364] IDirectDrawSurface::SetPalette this=0872F268 palette=08773C68
+23:41:03.810 [tid=1364] IDirectDrawSurface::SetPalette -> HRESULT=0x88760091
+23:41:03.810 [tid=1364] IDirectDrawPalette::AddRef -> 3
+23:41:03.810 [tid=1364] IDirectDrawPalette::Release -> wrapper=2 real=2
+23:41:03.810 [tid=1364] IDirectDrawSurface::SetPalette(virtual) -> HRESULT=0x00000000
+23:41:03.811 [tid=1364] IDirectDrawSurface::SetPalette this=0872F268 palette=08773C68
+23:41:03.811 [tid=1364] IDirectDrawSurface::SetPalette -> HRESULT=0x88760091
+23:41:03.811 [tid=1364] IDirectDrawPalette::AddRef -> 3
+23:41:03.811 [tid=1364] IDirectDrawPalette::Release -> wrapper=2 real=2
+23:41:03.811 [tid=1364] IDirectDrawSurface::SetPalette(virtual) -> HRESULT=0x00000000
+23:41:03.812 [tid=1364] IDirectDrawSurface::SetPalette this=0872F268 palette=08773C68
+23:41:03.812 [tid=1364] IDirectDrawSurface::SetPalette -> HRESULT=0x88760091
+23:41:03.812 [tid=1364] IDirectDrawPalette::AddRef -> 3
+23:41:03.812 [tid=1364] IDirectDrawPalette::Release -> wrapper=2 real=2
+23:41:03.812 [tid=1364] IDirectDrawSurface::SetPalette(virtual) -> HRESULT=0x00000000
+23:41:03.817 [tid=1364] Borderless fullscreen prepared: monitor=[0,0,1536,864] style=0x96000000 exStyle=0x00040000 owner=00000000
+23:41:03.817 [tid=1364] IDirectDrawSurface::Blt #1 this=0872F268 source=08773728 flags=0x01000000 effects=00000000
+23:41:03.817 [tid=1364]   destination(input)=[608,354,928,-5453058]
+23:41:03.817 [tid=1364]   source=[0,0,320,200]
+23:41:03.817 [tid=1364]   destination(repaired)=[192,0,1344,864]
+23:41:03.822 [tid=1364] IDirectDrawSurface::Blt -> HRESULT=0x00000000
+23:41:03.900 [tid=1364] IDirectDrawSurface::Lock #2 this=08773728 flags=0x00000001 event=00000000
+23:41:03.900 [tid=1364] IDirectDrawSurface::Lock -> HRESULT=0x00000000
+23:41:03.900 [tid=1364] IDirectDrawSurface::Lock output: flags=0x0000100F width=320 height=216 pitch=1280 surface=0872F450 caps=0x00000840 pfFlags=0x00000040 rgbBits=32
+23:41:03.900 [tid=1364] IDirectDrawSurface::Unlock #2 this=08773728 surface=00000000
+23:41:03.900 [tid=1364] IDirectDrawSurface::Unlock -> HRESULT=0x00000000
+23:41:03.900 [tid=1364] IDirectDrawSurface::Blt #2 this=0872F268 source=08773728 flags=0x01000000 effects=00000000
+23:41:03.900 [tid=1364]   destination(input)=[0,0,2016,-5421470]
+23:41:03.901 [tid=1364]   source=[0,0,320,200]
+23:41:03.901 [tid=1364]   destination(repaired)=[192,0,1344,864]
+23:41:03.904 [tid=1364] IDirectDrawSurface::Blt -> HRESULT=0x00000000
+23:41:03.907 [tid=1364] IDirectDrawSurface::Lock #3 this=08773728 flags=0x00000001 event=00000000
+23:41:03.907 [tid=1364] IDirectDrawSurface::Lock -> HRESULT=0x00000000
+23:41:03.907 [tid=1364] IDirectDrawSurface::Lock output: flags=0x0000100F width=320 height=216 pitch=1280 surface=0872F450 caps=0x00000840 pfFlags=0x00000040 rgbBits=32
+23:41:03.907 [tid=1364] IDirectDrawSurface::Unlock #3 this=08773728 surface=00000000
+23:41:03.907 [tid=1364] IDirectDrawSurface::Unlock -> HRESULT=0x00000000
+23:41:03.919 [tid=1364] IDirectDrawSurface::Blt #3 this=0872F268 source=08773728 flags=0x01000000 effects=00000000
+23:41:03.919 [tid=1364]   destination(input)=[0,0,2016,-5421470]
+23:41:03.919 [tid=1364]   source=[0,0,320,200]
+23:41:03.919 [tid=1364]   destination(repaired)=[192,0,1344,864]
+23:41:03.921 [tid=1364] IDirectDrawSurface::Blt -> HRESULT=0x00000000
+23:41:03.923 [tid=1364] IDirectDrawSurface::Lock #4 this=08773728 flags=0x00000001 event=00000000
+23:41:03.923 [tid=1364] IDirectDrawSurface::Lock -> HRESULT=0x00000000
+23:41:03.923 [tid=1364] IDirectDrawSurface::Lock output: flags=0x0000100F width=320 height=216 pitch=1280 surface=0872F450 caps=0x00000840 pfFlags=0x00000040 rgbBits=32
+23:41:03.923 [tid=1364] IDirectDrawSurface::Unlock #4 this=08773728 surface=00000000
+23:41:03.923 [tid=1364] IDirectDrawSurface::Unlock -> HRESULT=0x00000000
+23:41:03.935 [tid=1364] IDirectDrawSurface::Blt #4 this=0872F268 source=08773728 flags=0x01000000 effects=00000000
+23:41:03.935 [tid=1364]   destination(input)=[0,0,2016,-5421470]
+23:41:03.935 [tid=1364]   source=[0,0,320,200]
+23:41:03.935 [tid=1364]   destination(repaired)=[192,0,1344,864]
+23:41:03.937 [tid=1364] IDirectDrawSurface::Blt -> HRESULT=0x00000000
+23:41:03.938 [tid=1364] IDirectDrawSurface::Lock #5 this=08773728 flags=0x00000001 event=00000000
+23:41:03.938 [tid=1364] IDirectDrawSurface::Lock -> HRESULT=0x00000000
+23:41:03.939 [tid=1364] IDirectDrawSurface::Lock output: flags=0x0000100F width=320 height=216 pitch=1280 surface=0872F450 caps=0x00000840 pfFlags=0x00000040 rgbBits=32
+23:41:03.939 [tid=1364] IDirectDrawSurface::Unlock #5 this=08773728 surface=00000000
+23:41:03.939 [tid=1364] IDirectDrawSurface::Unlock -> HRESULT=0x00000000
+23:41:03.950 [tid=1364] IDirectDrawSurface::Blt #5 this=0872F268 source=08773728 flags=0x01000000 effects=00000000
+23:41:03.951 [tid=1364]   destination(input)=[0,0,2016,-5421470]
+23:41:03.951 [tid=1364]   source=[0,0,320,200]
+23:41:03.951 [tid=1364]   destination(repaired)=[192,0,1344,864]
+23:41:03.953 [tid=1364] IDirectDrawSurface::Blt -> HRESULT=0x00000000
+23:41:03.953 [tid=1364] IDirectDrawSurface::Lock #6 this=08773728 flags=0x00000001 event=00000000
+23:41:03.954 [tid=1364] IDirectDrawSurface::Lock -> HRESULT=0x00000000
+23:41:03.954 [tid=1364] IDirectDrawSurface::Lock output: flags=0x0000100F width=320 height=216 pitch=1280 surface=0872F450 caps=0x00000840 pfFlags=0x00000040 rgbBits=32
+23:41:03.954 [tid=1364] IDirectDrawSurface::Unlock #6 this=08773728 surface=00000000
+23:41:03.954 [tid=1364] IDirectDrawSurface::Unlock -> HRESULT=0x00000000
+23:41:03.981 [tid=1364] IDirectDrawSurface::Blt #6 this=0872F268 source=08773728 flags=0x01000000 effects=00000000
+23:41:03.981 [tid=1364]   destination(input)=[0,0,2016,-5421470]
+23:41:03.981 [tid=1364]   source=[0,0,320,200]
+23:41:03.981 [tid=1364]   destination(repaired)=[192,0,1344,864]
+23:41:03.984 [tid=1364] IDirectDrawSurface::Blt -> HRESULT=0x00000000
+23:41:03.985 [tid=1364] IDirectDrawSurface::Lock #7 this=08773728 flags=0x00000001 event=00000000
+23:41:03.985 [tid=1364] IDirectDrawSurface::Lock -> HRESULT=0x00000000
+23:41:03.985 [tid=1364] IDirectDrawSurface::Lock output: flags=0x0000100F width=320 height=216 pitch=1280 surface=0872F450 caps=0x00000840 pfFlags=0x00000040 rgbBits=32
+23:41:03.985 [tid=1364] IDirectDrawSurface::Unlock #7 this=08773728 surface=00000000
+23:41:03.985 [tid=1364] IDirectDrawSurface::Unlock -> HRESULT=0x00000000
+23:41:03.985 [tid=1364] IDirectDrawSurface::Blt #7 this=0872F268 source=08773728 flags=0x01000000 effects=00000000
+23:41:03.985 [tid=1364]   destination(input)=[0,0,2016,-5421470]
+23:41:03.986 [tid=1364]   source=[0,0,320,200]
+23:41:03.986 [tid=1364]   destination(repaired)=[192,0,1344,864]
+23:41:03.987 [tid=1364] IDirectDrawSurface::Blt -> HRESULT=0x00000000
+23:41:03.988 [tid=1364] IDirectDrawSurface::Lock #8 this=08773728 flags=0x00000001 event=00000000
+23:41:03.988 [tid=1364] IDirectDrawSurface::Lock -> HRESULT=0x00000000
+23:41:03.988 [tid=1364] IDirectDrawSurface::Lock output: flags=0x0000100F width=320 height=216 pitch=1280 surface=0872F450 caps=0x00000840 pfFlags=0x00000040 rgbBits=32
+23:41:03.988 [tid=1364] IDirectDrawSurface::Unlock #8 this=08773728 surface=00000000
+23:41:03.988 [tid=1364] IDirectDrawSurface::Unlock -> HRESULT=0x00000000
+23:41:04.013 [tid=1364] IDirectDrawSurface::Blt #8 this=0872F268 source=08773728 flags=0x01000000 effects=00000000
+23:41:04.013 [tid=1364]   destination(input)=[0,0,2016,-5421470]
+23:41:04.013 [tid=1364]   source=[0,0,320,200]
+23:41:04.013 [tid=1364]   destination(repaired)=[192,0,1344,864]
+23:41:04.016 [tid=1364] IDirectDrawSurface::Blt -> HRESULT=0x00000000
+23:41:22.225 [tid=1364] WINDOW key message=0x0100 vk=0x71 repeat=1 previous=0 transition=0 focus=00280888 foreground=00280888
+23:41:22.225 [tid=1364] WINDOW accessibility: F2 -> native Properties command 201
+23:41:22.242 [tid=1364] WINDOW command id=201 notification=0 source=00000000
+23:41:22.242 [tid=1364] WINDOW focus message=0x0008 wParam=0x0 lParam=0x0 focus=00000000 foreground=00280888
+23:41:22.246 [tid=1364] WINDOW focus message=0x0006 wParam=0x0 lParam=0x1809CA focus=00000000 foreground=00280888
+23:41:27.997 [tid=1364] WINDOW focus message=0x0006 wParam=0x1 lParam=0x1809CA focus=000D0916 foreground=00280888
+23:41:27.998 [tid=1364] WINDOW focus message=0x0007 wParam=0xD0916 lParam=0x0 focus=00280888 foreground=00280888
+23:41:28.000 [tid=1364] IDirectDrawSurface::SetPalette this=0872F268 palette=08773C68
+23:41:28.000 [tid=1364] IDirectDrawSurface::SetPalette -> HRESULT=0x88760091
+23:41:28.000 [tid=1364] IDirectDrawPalette::AddRef -> 3
+23:41:28.000 [tid=1364] IDirectDrawPalette::Release -> wrapper=2 real=2
+23:41:28.001 [tid=1364] IDirectDrawSurface::SetPalette(virtual) -> HRESULT=0x00000000
+23:41:29.820 [tid=1364] WINDOW key message=0x0100 vk=0x71 repeat=1 previous=0 transition=0 focus=00280888 foreground=00280888
+23:41:29.820 [tid=1364] WINDOW accessibility: F2 -> native Properties command 201
+23:41:29.837 [tid=1364] WINDOW command id=201 notification=0 source=00000000
+23:41:29.837 [tid=1364] WINDOW focus message=0x0008 wParam=0x0 lParam=0x0 focus=00000000 foreground=00280888
+23:41:29.842 [tid=1364] WINDOW focus message=0x0006 wParam=0x0 lParam=0x1909CA focus=00000000 foreground=00280888
+23:41:34.478 [tid=1364] INPUT compat: subclass hwnd=000706B8 gameProc=00406DDA previousProc=777B87A0
+23:41:34.478 [tid=1364] INPUT compat: subclass hwnd=0065065C gameProc=00406FB4 previousProc=777B87A0
+23:41:34.478 [tid=1364] INPUT compat: subclass hwnd=002F06D8 gameProc=00406EC7 previousProc=777B87A0
+23:41:34.478 [tid=1364] INPUT compat: subclass hwnd=00080680 gameProc=00406A1C previousProc=777B87A0
+23:41:34.478 [tid=1364] INPUT compat: subclass hwnd=00060682 gameProc=00406C00 previousProc=777B87A0
+23:41:34.478 [tid=1364] INPUT compat: subclass hwnd=00070692 gameProc=00406B13 previousProc=777B87A0
+23:41:34.479 [tid=1364] INPUT compat: subclass hwnd=00280636 gameProc=00406CED previousProc=777B87A0
+23:41:34.481 [tid=1364] INPUT compat: restored EM_GETSEL pointer hwnd=00070692 supplied=0000EA80 actual=000DEA80 companion=000DEA7C
+23:41:34.482 [tid=1364] INPUT compat: restored EM_GETSEL pointer hwnd=00070692 supplied=0000EF88 actual=000DEF88 companion=000DEF84
+23:41:35.778 [tid=1364] INPUT compat: restored EM_GETSEL pointer hwnd=0065065C supplied=0000EEC8 actual=000DEEC8 companion=000DEEC4
+23:41:35.779 [tid=1364] INPUT compat: restored EM_GETSEL pointer hwnd=0065065C supplied=0000EFD8 actual=000DEFD8 companion=000DEFD4
+23:41:35.863 [tid=1364] INPUT compat: restored EM_GETSEL pointer hwnd=0065065C supplied=0000F010 actual=000DF010 companion=000DF00C
+23:41:36.335 [tid=1364] INPUT compat: restored EM_GETSEL pointer hwnd=0065065C supplied=0000F010 actual=000DF010 companion=000DF00C
+23:41:36.382 [tid=1364] INPUT compat: restored EM_GETSEL pointer hwnd=0065065C supplied=0000F010 actual=000DF010 companion=000DF00C
+23:41:36.390 [tid=1364] INPUT compat: restored EM_GETSEL pointer hwnd=0065065C supplied=0000F010 actual=000DF010 companion=000DF00C
+23:41:36.398 [tid=1364] INPUT compat: restored EM_GETSEL pointer hwnd=0065065C supplied=0000F010 actual=000DF010 companion=000DF00C
+23:41:36.406 [tid=1364] INPUT compat: restored EM_GETSEL pointer hwnd=0065065C supplied=0000F010 actual=000DF010 companion=000DF00C
+23:41:36.414 [tid=1364] INPUT compat: restored EM_GETSEL pointer hwnd=0065065C supplied=0000F010 actual=000DF010 companion=000DF00C
+23:41:36.423 [tid=1364] INPUT compat: restored EM_GETSEL pointer hwnd=0065065C supplied=0000F010 actual=000DF010 companion=000DF00C
+23:41:36.430 [tid=1364] INPUT compat: restored EM_GETSEL pointer hwnd=0065065C supplied=0000F010 actual=000DF010 companion=000DF00C
+23:41:36.439 [tid=1364] INPUT compat: restored EM_GETSEL pointer hwnd=0065065C supplied=0000F010 actual=000DF010 companion=000DF00C
+23:41:36.447 [tid=1364] INPUT compat: restored EM_GETSEL pointer hwnd=0065065C supplied=0000F010 actual=000DF010 companion=000DF00C
+23:41:36.455 [tid=1364] INPUT compat: restored EM_GETSEL pointer hwnd=0065065C supplied=0000F010 actual=000DF010 companion=000DF00C
+23:41:36.463 [tid=1364] INPUT compat: restored EM_GETSEL pointer hwnd=0065065C supplied=0000F010 actual=000DF010 companion=000DF00C
+23:41:36.470 [tid=1364] INPUT compat: restored EM_GETSEL pointer hwnd=0065065C supplied=0000F010 actual=000DF010 companion=000DF00C
+23:41:36.480 [tid=1364] INPUT compat: restored EM_GETSEL pointer hwnd=0065065C supplied=0000F010 actual=000DF010 companion=000DF00C
+23:41:36.486 [tid=1364] INPUT compat: restored EM_GETSEL pointer hwnd=0065065C supplied=0000F010 actual=000DF010 companion=000DF00C
+23:41:36.496 [tid=1364] INPUT compat: restored EM_GETSEL pointer hwnd=0065065C supplied=0000F010 actual=000DF010 companion=000DF00C
+23:41:36.504 [tid=1364] INPUT compat: restored EM_GETSEL pointer hwnd=0065065C supplied=0000F010 actual=000DF010 companion=000DF00C
+23:41:36.512 [tid=1364] INPUT compat: restored EM_GETSEL pointer hwnd=0065065C supplied=0000F010 actual=000DF010 companion=000DF00C
+23:41:36.520 [tid=1364] INPUT compat: restored EM_GETSEL pointer hwnd=0065065C supplied=0000F010 actual=000DF010 companion=000DF00C
+23:41:36.528 [tid=1364] INPUT compat: restored EM_GETSEL pointer hwnd=0065065C supplied=0000F010 actual=000DF010 companion=000DF00C
+23:41:36.537 [tid=1364] INPUT compat: restored EM_GETSEL pointer hwnd=0065065C supplied=0000F010 actual=000DF010 companion=000DF00C
+23:41:36.545 [tid=1364] INPUT compat: restored EM_GETSEL pointer hwnd=0065065C supplied=0000F010 actual=000DF010 companion=000DF00C
+23:41:36.553 [tid=1364] INPUT compat: restored EM_GETSEL pointer hwnd=0065065C supplied=0000F010 actual=000DF010 companion=000DF00C
+23:41:36.561 [tid=1364] INPUT compat: restored EM_GETSEL pointer hwnd=0065065C supplied=0000F010 actual=000DF010 companion=000DF00C
+23:41:36.569 [tid=1364] INPUT compat: restored EM_GETSEL pointer hwnd=0065065C supplied=0000F010 actual=000DF010 companion=000DF00C
+23:41:36.576 [tid=1364] INPUT compat: restored EM_GETSEL pointer hwnd=0065065C supplied=0000F010 actual=000DF010 companion=000DF00C
+23:41:36.584 [tid=1364] INPUT compat: restored EM_GETSEL pointer hwnd=0065065C supplied=0000F010 actual=000DF010 companion=000DF00C
+23:41:36.592 [tid=1364] INPUT compat: restored EM_GETSEL pointer hwnd=0065065C supplied=0000F010 actual=000DF010 companion=000DF00C
+23:41:36.600 [tid=1364] INPUT compat: restored EM_GETSEL pointer hwnd=0065065C supplied=0000F010 actual=000DF010 companion=000DF00C
+23:41:36.608 [tid=1364] INPUT compat: restored EM_GETSEL pointer hwnd=0065065C supplied=0000F010 actual=000DF010 companion=000DF00C
+23:41:36.616 [tid=1364] INPUT compat: restored EM_GETSEL pointer hwnd=0065065C supplied=0000F010 actual=000DF010 companion=000DF00C
+23:41:36.624 [tid=1364] INPUT compat: restored EM_GETSEL pointer hwnd=0065065C supplied=0000F010 actual=000DF010 companion=000DF00C
+23:41:36.632 [tid=1364] INPUT compat: restored EM_GETSEL pointer hwnd=0065065C supplied=0000F010 actual=000DF010 companion=000DF00C
+23:41:36.640 [tid=1364] INPUT compat: restored EM_GETSEL pointer hwnd=0065065C supplied=0000F010 actual=000DF010 companion=000DF00C
+23:41:36.648 [tid=1364] INPUT compat: restored EM_GETSEL pointer hwnd=0065065C supplied=0000F010 actual=000DF010 companion=000DF00C
+23:41:36.656 [tid=1364] INPUT compat: restored EM_GETSEL pointer hwnd=0065065C supplied=0000F010 actual=000DF010 companion=000DF00C
+23:41:36.664 [tid=1364] INPUT compat: restored EM_GETSEL pointer hwnd=0065065C supplied=0000F010 actual=000DF010 companion=000DF00C
+23:41:36.672 [tid=1364] INPUT compat: restored EM_GETSEL pointer hwnd=0065065C supplied=0000F010 actual=000DF010 companion=000DF00C
+23:41:36.680 [tid=1364] INPUT compat: restored EM_GETSEL pointer hwnd=0065065C supplied=0000F010 actual=000DF010 companion=000DF00C
+23:41:36.688 [tid=1364] INPUT compat: restored EM_GETSEL pointer hwnd=0065065C supplied=0000F010 actual=000DF010 companion=000DF00C
+23:41:36.696 [tid=1364] INPUT compat: restored EM_GETSEL pointer hwnd=0065065C supplied=0000F010 actual=000DF010 companion=000DF00C
+23:41:36.705 [tid=1364] INPUT compat: restored EM_GETSEL pointer hwnd=0065065C supplied=0000F010 actual=000DF010 companion=000DF00C
+23:41:36.713 [tid=1364] INPUT compat: restored EM_GETSEL pointer hwnd=0065065C supplied=0000F010 actual=000DF010 companion=000DF00C
+23:41:36.720 [tid=1364] INPUT compat: restored EM_GETSEL pointer hwnd=0065065C supplied=0000F010 actual=000DF010 companion=000DF00C
+23:41:36.723 [tid=1364] INPUT compat: restored EM_GETSEL pointer hwnd=0065065C supplied=0000F010 actual=000DF010 companion=000DF00C
+23:41:36.730 [tid=1364] INPUT compat: restored EM_GETSEL pointer hwnd=0065065C supplied=0000F010 actual=000DF010 companion=000DF00C
+23:41:36.883 [tid=1364] INPUT compat: restored EM_GETSEL pointer hwnd=0065065C supplied=0000F010 actual=000DF010 companion=000DF00C
+23:41:38.218 [tid=1364] INPUT compat: restored EM_GETSEL pointer hwnd=0065065C supplied=0000EF88 actual=000DEF88 companion=000DEF84
+23:41:40.959 [tid=1364] WINDOW focus message=0x0006 wParam=0x1 lParam=0x1909CA focus=0009069A foreground=00280888
+23:41:40.960 [tid=1364] WINDOW focus message=0x0007 wParam=0x9069A lParam=0x0 focus=00280888 foreground=00280888
+23:41:40.960 [tid=1364] IDirectDrawSurface::SetPalette this=0872F268 palette=08773C68
+23:41:40.960 [tid=1364] IDirectDrawSurface::SetPalette -> HRESULT=0x88760091
+23:41:40.961 [tid=1364] IDirectDrawPalette::AddRef -> 3
+23:41:40.961 [tid=1364] IDirectDrawPalette::Release -> wrapper=2 real=2
+23:41:40.961 [tid=1364] IDirectDrawSurface::SetPalette(virtual) -> HRESULT=0x00000000
+23:41:42.790 [tid=1364] WINDOW key message=0x0100 vk=0x71 repeat=1 previous=0 transition=0 focus=00280888 foreground=00280888
+23:41:42.791 [tid=1364] WINDOW accessibility: F2 -> native Properties command 201
+23:41:42.807 [tid=1364] WINDOW command id=201 notification=0 source=00000000
+23:41:42.807 [tid=1364] WINDOW focus message=0x0008 wParam=0x0 lParam=0x0 focus=00000000 foreground=00280888
+23:41:42.812 [tid=1364] WINDOW focus message=0x0006 wParam=0x0 lParam=0x8074A focus=00000000 foreground=00280888
+23:41:45.734 [tid=1364] INPUT compat: subclass hwnd=003006D8 gameProc=00407878 previousProc=777B87A0
+23:41:45.735 [tid=1364] INPUT compat: subclass hwnd=000806B8 gameProc=0040789E previousProc=777B87A0
+23:41:45.735 [tid=1364] INPUT compat: subclass hwnd=00090680 gameProc=004078C4 previousProc=777B87A0
+23:41:45.737 [tid=1364] INPUT compat: restored EM_GETSEL pointer hwnd=003006D8 supplied=0000EA80 actual=000DEA80 companion=000DEA7C
+23:41:45.740 [tid=1364] INPUT compat: restored EM_GETSEL pointer hwnd=003006D8 supplied=0000EF80 actual=000DEF80 companion=000DEF7C
+23:41:46.257 [tid=1364] INPUT compat: subclass hwnd=00250BE0 gameProc=00406DDA previousProc=777B87A0
+23:41:46.258 [tid=1364] INPUT compat: subclass hwnd=0016062A gameProc=00406FB4 previousProc=777B87A0
+23:41:46.258 [tid=1364] INPUT compat: subclass hwnd=000F0734 gameProc=00406EC7 previousProc=777B87A0
+23:41:46.258 [tid=1364] INPUT compat: subclass hwnd=000A0914 gameProc=00406A1C previousProc=777B87A0
+23:41:46.258 [tid=1364] INPUT compat: subclass hwnd=00C402F4 gameProc=00406C00 previousProc=777B87A0
+23:41:46.258 [tid=1364] INPUT compat: subclass hwnd=0007069C gameProc=00406B13 previousProc=777B87A0
+23:41:46.258 [tid=1364] INPUT compat: subclass hwnd=00750660 gameProc=00406CED previousProc=777B87A0
+23:41:46.261 [tid=1364] INPUT compat: restored EM_GETSEL pointer hwnd=0007069C supplied=0000EA80 actual=000DEA80 companion=000DEA7C
+23:41:46.262 [tid=1364] INPUT compat: restored EM_GETSEL pointer hwnd=0007069C supplied=0000EF88 actual=000DEF88 companion=000DEF84
+23:41:49.006 [tid=1364] WINDOW focus message=0x0006 wParam=0x1 lParam=0x8074A focus=0006076E foreground=00280888
+23:41:49.007 [tid=1364] WINDOW focus message=0x0007 wParam=0x6076E lParam=0x0 focus=00280888 foreground=00280888
+23:41:49.010 [tid=1364] IDirectDrawSurface::SetPalette this=0872F268 palette=08773C68
+23:41:49.010 [tid=1364] IDirectDrawSurface::SetPalette -> HRESULT=0x88760091
+23:41:49.010 [tid=1364] IDirectDrawPalette::AddRef -> 3
+23:41:49.010 [tid=1364] IDirectDrawPalette::Release -> wrapper=2 real=2
+23:41:49.010 [tid=1364] IDirectDrawSurface::SetPalette(virtual) -> HRESULT=0x00000000
+23:41:50.524 [tid=1364] WINDOW key message=0x0100 vk=0x20 repeat=1 previous=0 transition=0 focus=00280888 foreground=00280888
+23:41:50.608 [tid=1364] WINDOW key message=0x0101 vk=0x20 repeat=1 previous=1 transition=1 focus=00280888 foreground=00280888
+23:41:52.979 [tid=1364] WINDOW key message=0x0100 vk=0x20 repeat=1 previous=0 transition=0 focus=00280888 foreground=00280888
+23:41:53.073 [tid=1364] WINDOW key message=0x0101 vk=0x20 repeat=1 previous=1 transition=1 focus=00280888 foreground=00280888
+23:41:56.546 [tid=1364] WINDOW key message=0x0100 vk=0x20 repeat=1 previous=0 transition=0 focus=00280888 foreground=00280888
+23:41:56.782 [tid=1364] WINDOW key message=0x0101 vk=0x20 repeat=1 previous=1 transition=1 focus=00280888 foreground=00280888
+23:41:59.684 [tid=1364] WINDOW key message=0x0100 vk=0x20 repeat=1 previous=0 transition=0 focus=00280888 foreground=00280888
+23:41:59.800 [tid=1364] WINDOW key message=0x0101 vk=0x20 repeat=1 previous=1 transition=1 focus=00280888 foreground=00280888
+23:42:06.668 [tid=1364] WINDOW key message=0x0100 vk=0x27 repeat=1 previous=0 transition=0 focus=00280888 foreground=00280888
+23:42:06.884 [tid=1364] WINDOW key message=0x0101 vk=0x27 repeat=1 previous=1 transition=1 focus=00280888 foreground=00280888
+23:42:09.117 [tid=1364] WINDOW key message=0x0100 vk=0x27 repeat=1 previous=0 transition=0 focus=00280888 foreground=00280888
+23:42:09.435 [tid=1364] WINDOW key message=0x0101 vk=0x27 repeat=1 previous=1 transition=1 focus=00280888 foreground=00280888
+23:42:09.718 [tid=1364] WINDOW key message=0x0100 vk=0x27 repeat=1 previous=0 transition=0 focus=00280888 foreground=00280888
+23:42:10.234 [tid=1364] WINDOW key message=0x0100 vk=0x27 repeat=1 previous=1 transition=0 focus=00280888 foreground=00280888
+23:42:10.270 [tid=1364] WINDOW key message=0x0100 vk=0x27 repeat=1 previous=1 transition=0 focus=00280888 foreground=00280888
+23:42:10.300 [tid=1364] WINDOW key message=0x0101 vk=0x27 repeat=1 previous=1 transition=1 focus=00280888 foreground=00280888
+23:42:10.851 [tid=1364] WINDOW key message=0x0100 vk=0x26 repeat=1 previous=0 transition=0 focus=00280888 foreground=00280888
+23:42:11.234 [tid=1364] WINDOW key message=0x0101 vk=0x26 repeat=1 previous=1 transition=1 focus=00280888 foreground=00280888
+23:42:11.901 [tid=1364] WINDOW key message=0x0100 vk=0x26 repeat=1 previous=0 transition=0 focus=00280888 foreground=00280888
+23:42:12.067 [tid=1364] WINDOW key message=0x0100 vk=0x20 repeat=1 previous=0 transition=0 focus=00280888 foreground=00280888
+23:42:12.184 [tid=1364] WINDOW key message=0x0101 vk=0x20 repeat=1 previous=1 transition=1 focus=00280888 foreground=00280888
+23:42:12.284 [tid=1364] WINDOW key message=0x0101 vk=0x26 repeat=1 previous=1 transition=1 focus=00280888 foreground=00280888
+23:42:13.784 [tid=1364] WINDOW key message=0x0100 vk=0x27 repeat=1 previous=0 transition=0 focus=00280888 foreground=00280888
+23:42:14.267 [tid=1364] WINDOW key message=0x0100 vk=0x26 repeat=1 previous=0 transition=0 focus=00280888 foreground=00280888
+23:42:14.351 [tid=1364] WINDOW key message=0x0100 vk=0x20 repeat=1 previous=0 transition=0 focus=00280888 foreground=00280888
+23:42:14.601 [tid=1364] WINDOW key message=0x0101 vk=0x20 repeat=1 previous=1 transition=1 focus=00280888 foreground=00280888
+23:42:15.284 [tid=1364] WINDOW key message=0x0101 vk=0x26 repeat=1 previous=1 transition=1 focus=00280888 foreground=00280888
+23:42:15.401 [tid=1364] WINDOW key message=0x0101 vk=0x27 repeat=1 previous=1 transition=1 focus=00280888 foreground=00280888
+23:42:15.901 [tid=1364] WINDOW key message=0x0100 vk=0x58 repeat=1 previous=0 transition=0 focus=00280888 foreground=00280888
+23:42:16.034 [tid=1364] WINDOW key message=0x0101 vk=0x58 repeat=1 previous=1 transition=1 focus=00280888 foreground=00280888
+23:42:16.468 [tid=1364] WINDOW key message=0x0100 vk=0x58 repeat=1 previous=0 transition=0 focus=00280888 foreground=00280888
+23:42:16.601 [tid=1364] WINDOW key message=0x0101 vk=0x58 repeat=1 previous=1 transition=1 focus=00280888 foreground=00280888
+23:42:16.935 [tid=1364] WINDOW key message=0x0100 vk=0x5A repeat=1 previous=0 transition=0 focus=00280888 foreground=00280888
+23:42:17.118 [tid=1364] WINDOW key message=0x0101 vk=0x5A repeat=1 previous=1 transition=1 focus=00280888 foreground=00280888
+23:42:17.334 [tid=1364] WINDOW key message=0x0100 vk=0x5A repeat=1 previous=0 transition=0 focus=00280888 foreground=00280888
+23:42:17.451 [tid=1364] WINDOW key message=0x0101 vk=0x5A repeat=1 previous=1 transition=1 focus=00280888 foreground=00280888
+23:42:17.668 [tid=1364] WINDOW key message=0x0100 vk=0x5A repeat=1 previous=0 transition=0 focus=00280888 foreground=00280888
+23:42:17.784 [tid=1364] WINDOW key message=0x0101 vk=0x5A repeat=1 previous=1 transition=1 focus=00280888 foreground=00280888
+23:42:17.901 [tid=1364] WINDOW key message=0x0100 vk=0x27 repeat=1 previous=0 transition=0 focus=00280888 foreground=00280888
+23:42:17.918 [tid=1364] WINDOW key message=0x0100 vk=0x5A repeat=1 previous=0 transition=0 focus=00280888 foreground=00280888
+23:42:17.968 [tid=1364] WINDOW key message=0x0101 vk=0x5A repeat=1 previous=1 transition=1 focus=00280888 foreground=00280888
+23:42:18.085 [tid=1364] WINDOW key message=0x0100 vk=0x5A repeat=1 previous=0 transition=0 focus=00280888 foreground=00280888
+23:42:18.151 [tid=1364] WINDOW key message=0x0101 vk=0x27 repeat=1 previous=1 transition=1 focus=00280888 foreground=00280888
+23:42:18.168 [tid=1364] WINDOW key message=0x0101 vk=0x5A repeat=1 previous=1 transition=1 focus=00280888 foreground=00280888
+23:42:20.001 [tid=1364] WINDOW key message=0x0100 vk=0x27 repeat=1 previous=0 transition=0 focus=00280888 foreground=00280888
+23:42:20.318 [tid=1364] WINDOW key message=0x0100 vk=0x26 repeat=1 previous=0 transition=0 focus=00280888 foreground=00280888
+23:42:20.384 [tid=1364] WINDOW key message=0x0101 vk=0x27 repeat=1 previous=1 transition=1 focus=00280888 foreground=00280888
+23:42:20.484 [tid=1364] WINDOW key message=0x0101 vk=0x26 repeat=1 previous=1 transition=1 focus=00280888 foreground=00280888
+23:42:21.668 [tid=1364] WINDOW key message=0x0100 vk=0x27 repeat=1 previous=0 transition=0 focus=00280888 foreground=00280888
+23:42:21.901 [tid=1364] WINDOW key message=0x0101 vk=0x27 repeat=1 previous=1 transition=1 focus=00280888 foreground=00280888
+23:42:22.217 [tid=1364] WINDOW key message=0x0100 vk=0x25 repeat=1 previous=0 transition=0 focus=00280888 foreground=00280888
+23:42:22.735 [tid=1364] WINDOW key message=0x0100 vk=0x25 repeat=1 previous=1 transition=0 focus=00280888 foreground=00280888
+23:42:22.767 [tid=1364] WINDOW key message=0x0100 vk=0x25 repeat=1 previous=1 transition=0 focus=00280888 foreground=00280888
+23:42:22.801 [tid=1364] WINDOW key message=0x0100 vk=0x25 repeat=1 previous=1 transition=0 focus=00280888 foreground=00280888
+23:42:22.834 [tid=1364] WINDOW key message=0x0101 vk=0x25 repeat=1 previous=1 transition=1 focus=00280888 foreground=00280888
+23:42:22.951 [tid=1364] WINDOW key message=0x0100 vk=0x27 repeat=1 previous=0 transition=0 focus=00280888 foreground=00280888
+23:42:23.501 [tid=1364] WINDOW key message=0x0100 vk=0x27 repeat=1 previous=1 transition=0 focus=00280888 foreground=00280888
+23:42:23.535 [tid=1364] WINDOW key message=0x0100 vk=0x27 repeat=1 previous=1 transition=0 focus=00280888 foreground=00280888
+23:42:23.567 [tid=1364] WINDOW key message=0x0100 vk=0x27 repeat=1 previous=1 transition=0 focus=00280888 foreground=00280888
+23:42:23.601 [tid=1364] WINDOW key message=0x0100 vk=0x27 repeat=1 previous=1 transition=0 focus=00280888 foreground=00280888
+23:42:23.618 [tid=1364] WINDOW key message=0x0100 vk=0x20 repeat=1 previous=0 transition=0 focus=00280888 foreground=00280888
+23:42:24.036 [tid=1364] WINDOW key message=0x0101 vk=0x20 repeat=1 previous=1 transition=1 focus=00280888 foreground=00280888
+23:42:24.301 [tid=1364] WINDOW key message=0x0100 vk=0x5A repeat=1 previous=0 transition=0 focus=00280888 foreground=00280888
+23:42:24.401 [tid=1364] WINDOW key message=0x0101 vk=0x5A repeat=1 previous=1 transition=1 focus=00280888 foreground=00280888
+23:42:24.485 [tid=1364] WINDOW key message=0x0100 vk=0x5A repeat=1 previous=0 transition=0 focus=00280888 foreground=00280888
+23:42:24.584 [tid=1364] WINDOW key message=0x0101 vk=0x5A repeat=1 previous=1 transition=1 focus=00280888 foreground=00280888
+23:42:24.751 [tid=1364] WINDOW key message=0x0101 vk=0x27 repeat=1 previous=1 transition=1 focus=00280888 foreground=00280888
+23:42:25.034 [tid=1364] WINDOW key message=0x0100 vk=0x25 repeat=1 previous=0 transition=0 focus=00280888 foreground=00280888
+23:42:25.201 [tid=1364] WINDOW key message=0x0101 vk=0x25 repeat=1 previous=1 transition=1 focus=00280888 foreground=00280888
+23:42:25.568 [tid=1364] WINDOW key message=0x0100 vk=0x27 repeat=1 previous=0 transition=0 focus=00280888 foreground=00280888
+23:42:25.667 [tid=1364] WINDOW key message=0x0100 vk=0x20 repeat=1 previous=0 transition=0 focus=00280888 foreground=00280888
+23:42:25.934 [tid=1364] WINDOW key message=0x0101 vk=0x20 repeat=1 previous=1 transition=1 focus=00280888 foreground=00280888
+23:42:26.801 [tid=1364] WINDOW key message=0x0101 vk=0x27 repeat=1 previous=1 transition=1 focus=00280888 foreground=00280888
+23:42:27.617 [tid=1364] WINDOW key message=0x0100 vk=0x27 repeat=1 previous=0 transition=0 focus=00280888 foreground=00280888
+23:42:27.734 [tid=1364] WINDOW key message=0x0101 vk=0x27 repeat=1 previous=1 transition=1 focus=00280888 foreground=00280888
+23:42:27.750 [tid=1364] WINDOW key message=0x0100 vk=0x5A repeat=1 previous=0 transition=0 focus=00280888 foreground=00280888
+23:42:27.901 [tid=1364] WINDOW key message=0x0101 vk=0x5A repeat=1 previous=1 transition=1 focus=00280888 foreground=00280888
+23:42:28.000 [tid=1364] WINDOW key message=0x0100 vk=0x5A repeat=1 previous=0 transition=0 focus=00280888 foreground=00280888
+23:42:28.101 [tid=1364] WINDOW key message=0x0101 vk=0x5A repeat=1 previous=1 transition=1 focus=00280888 foreground=00280888
+23:42:28.201 [tid=1364] WINDOW key message=0x0100 vk=0x5A repeat=1 previous=0 transition=0 focus=00280888 foreground=00280888
+23:42:28.284 [tid=1364] WINDOW key message=0x0101 vk=0x5A repeat=1 previous=1 transition=1 focus=00280888 foreground=00280888
+23:42:28.318 [tid=1364] WINDOW key message=0x0100 vk=0x27 repeat=1 previous=0 transition=0 focus=00280888 foreground=00280888
+23:42:28.384 [tid=1364] WINDOW key message=0x0100 vk=0x5A repeat=1 previous=0 transition=0 focus=00280888 foreground=00280888
+23:42:28.501 [tid=1364] WINDOW key message=0x0101 vk=0x5A repeat=1 previous=1 transition=1 focus=00280888 foreground=00280888
+23:42:28.584 [tid=1364] WINDOW key message=0x0100 vk=0x5A repeat=1 previous=0 transition=0 focus=00280888 foreground=00280888
+23:42:28.668 [tid=1364] WINDOW key message=0x0101 vk=0x5A repeat=1 previous=1 transition=1 focus=00280888 foreground=00280888
+23:42:28.750 [tid=1364] WINDOW key message=0x0100 vk=0x5A repeat=1 previous=0 transition=0 focus=00280888 foreground=00280888
+23:42:28.784 [tid=1364] WINDOW key message=0x0101 vk=0x27 repeat=1 previous=1 transition=1 focus=00280888 foreground=00280888
+23:42:28.834 [tid=1364] WINDOW key message=0x0101 vk=0x5A repeat=1 previous=1 transition=1 focus=00280888 foreground=00280888
+23:42:29.734 [tid=1364] WINDOW key message=0x0100 vk=0x27 repeat=1 previous=0 transition=0 focus=00280888 foreground=00280888
+23:42:30.217 [tid=1364] WINDOW key message=0x0101 vk=0x27 repeat=1 previous=1 transition=1 focus=00280888 foreground=00280888
+23:42:31.768 [tid=1364] WINDOW key message=0x0100 vk=0x27 repeat=1 previous=0 transition=0 focus=00280888 foreground=00280888
+23:42:32.018 [tid=1364] WINDOW key message=0x0101 vk=0x27 repeat=1 previous=1 transition=1 focus=00280888 foreground=00280888
+23:42:32.218 [tid=1364] WINDOW key message=0x0100 vk=0x27 repeat=1 previous=0 transition=0 focus=00280888 foreground=00280888
+23:42:32.301 [tid=1364] WINDOW key message=0x0101 vk=0x27 repeat=1 previous=1 transition=1 focus=00280888 foreground=00280888
+23:42:35.001 [tid=1364] WINDOW key message=0x0100 vk=0x27 repeat=1 previous=0 transition=0 focus=00280888 foreground=00280888
+23:42:35.334 [tid=1364] WINDOW key message=0x0101 vk=0x27 repeat=1 previous=1 transition=1 focus=00280888 foreground=00280888
+23:42:36.035 [tid=1364] WINDOW key message=0x0100 vk=0x26 repeat=1 previous=0 transition=0 focus=00280888 foreground=00280888
+23:42:36.234 [tid=1364] WINDOW key message=0x0101 vk=0x26 repeat=1 previous=1 transition=1 focus=00280888 foreground=00280888
+23:42:36.417 [tid=1364] WINDOW key message=0x0100 vk=0x27 repeat=1 previous=0 transition=0 focus=00280888 foreground=00280888
+23:42:36.667 [tid=1364] WINDOW key message=0x0101 vk=0x27 repeat=1 previous=1 transition=1 focus=00280888 foreground=00280888
+23:42:36.818 [tid=1364] WINDOW key message=0x0100 vk=0x20 repeat=1 previous=0 transition=0 focus=00280888 foreground=00280888
+23:42:36.884 [tid=1364] WINDOW key message=0x0100 vk=0x26 repeat=1 previous=0 transition=0 focus=00280888 foreground=00280888
+23:42:37.050 [tid=1364] WINDOW key message=0x0101 vk=0x20 repeat=1 previous=1 transition=1 focus=00280888 foreground=00280888
+23:42:37.101 [tid=1364] WINDOW key message=0x0100 vk=0x27 repeat=1 previous=0 transition=0 focus=00280888 foreground=00280888
+23:42:37.118 [tid=1364] WINDOW key message=0x0101 vk=0x26 repeat=1 previous=1 transition=1 focus=00280888 foreground=00280888
+23:42:37.201 [tid=1364] WINDOW key message=0x0101 vk=0x27 repeat=1 previous=1 transition=1 focus=00280888 foreground=00280888
+23:42:37.685 [tid=1364] WINDOW key message=0x0100 vk=0x20 repeat=1 previous=0 transition=0 focus=00280888 foreground=00280888
+23:42:37.717 [tid=1364] WINDOW key message=0x0100 vk=0x25 repeat=1 previous=0 transition=0 focus=00280888 foreground=00280888
+23:42:38.034 [tid=1364] WINDOW key message=0x0101 vk=0x20 repeat=1 previous=1 transition=1 focus=00280888 foreground=00280888
+23:42:38.234 [tid=1364] WINDOW key message=0x0100 vk=0x25 repeat=1 previous=1 transition=0 focus=00280888 foreground=00280888
+23:42:38.268 [tid=1364] WINDOW key message=0x0100 vk=0x25 repeat=1 previous=1 transition=0 focus=00280888 foreground=00280888
+23:42:38.301 [tid=1364] WINDOW key message=0x0100 vk=0x25 repeat=1 previous=1 transition=0 focus=00280888 foreground=00280888
+23:42:38.334 [tid=1364] WINDOW key message=0x0100 vk=0x25 repeat=1 previous=1 transition=0 focus=00280888 foreground=00280888
+23:42:38.351 [tid=1364] WINDOW key message=0x0101 vk=0x25 repeat=1 previous=1 transition=1 focus=00280888 foreground=00280888
+23:42:38.518 [tid=1364] WINDOW key message=0x0100 vk=0x27 repeat=1 previous=0 transition=0 focus=00280888 foreground=00280888
+23:42:38.834 [tid=1364] WINDOW key message=0x0101 vk=0x27 repeat=1 previous=1 transition=1 focus=00280888 foreground=00280888
+23:42:38.967 [tid=1364] WINDOW key message=0x0100 vk=0x25 repeat=1 previous=0 transition=0 focus=00280888 foreground=00280888
+23:42:38.984 [tid=1364] WINDOW key message=0x0100 vk=0x20 repeat=1 previous=0 transition=0 focus=00280888 foreground=00280888
+23:42:39.217 [tid=1364] WINDOW key message=0x0101 vk=0x20 repeat=1 previous=1 transition=1 focus=00280888 foreground=00280888
+23:42:39.717 [tid=1364] WINDOW key message=0x0101 vk=0x25 repeat=1 previous=1 transition=1 focus=00280888 foreground=00280888
+23:42:39.750 [tid=1364] WINDOW key message=0x0100 vk=0x27 repeat=1 previous=0 transition=0 focus=00280888 foreground=00280888
+23:42:40.117 [tid=1364] WINDOW key message=0x0101 vk=0x27 repeat=1 previous=1 transition=1 focus=00280888 foreground=00280888
+23:42:40.268 [tid=1364] WINDOW key message=0x0100 vk=0x20 repeat=1 previous=0 transition=0 focus=00280888 foreground=00280888
+23:42:40.334 [tid=1364] WINDOW key message=0x0100 vk=0x25 repeat=1 previous=0 transition=0 focus=00280888 foreground=00280888
+23:42:40.484 [tid=1364] WINDOW key message=0x0101 vk=0x20 repeat=1 previous=1 transition=1 focus=00280888 foreground=00280888
+23:42:40.501 [tid=1364] WINDOW key message=0x0101 vk=0x25 repeat=1 previous=1 transition=1 focus=00280888 foreground=00280888
+23:42:40.535 [tid=1364] WINDOW key message=0x0100 vk=0x27 repeat=1 previous=0 transition=0 focus=00280888 foreground=00280888
+23:42:40.751 [tid=1364] WINDOW key message=0x0101 vk=0x27 repeat=1 previous=1 transition=1 focus=00280888 foreground=00280888
+23:42:41.052 [tid=1364] WINDOW key message=0x0100 vk=0x25 repeat=1 previous=0 transition=0 focus=00280888 foreground=00280888
+23:42:41.084 [tid=1364] WINDOW key message=0x0100 vk=0x20 repeat=1 previous=0 transition=0 focus=00280888 foreground=00280888
+23:42:41.534 [tid=1364] WINDOW key message=0x0101 vk=0x20 repeat=1 previous=1 transition=1 focus=00280888 foreground=00280888
+23:42:41.951 [tid=1364] WINDOW key message=0x0101 vk=0x25 repeat=1 previous=1 transition=1 focus=00280888 foreground=00280888
+23:42:42.035 [tid=1364] WINDOW key message=0x0100 vk=0x27 repeat=1 previous=0 transition=0 focus=00280888 foreground=00280888
+23:42:42.284 [tid=1364] WINDOW key message=0x0101 vk=0x27 repeat=1 previous=1 transition=1 focus=00280888 foreground=00280888
+23:42:42.367 [tid=1364] WINDOW key message=0x0100 vk=0x20 repeat=1 previous=0 transition=0 focus=00280888 foreground=00280888
+23:42:42.434 [tid=1364] WINDOW key message=0x0100 vk=0x27 repeat=1 previous=0 transition=0 focus=00280888 foreground=00280888
+23:42:42.667 [tid=1364] WINDOW key message=0x0101 vk=0x20 repeat=1 previous=1 transition=1 focus=00280888 foreground=00280888
+23:42:42.684 [tid=1364] WINDOW key message=0x0101 vk=0x27 repeat=1 previous=1 transition=1 focus=00280888 foreground=00280888
+23:42:42.901 [tid=1364] WINDOW key message=0x0100 vk=0x25 repeat=1 previous=0 transition=0 focus=00280888 foreground=00280888
+23:42:43.184 [tid=1364] WINDOW key message=0x0100 vk=0x20 repeat=1 previous=0 transition=0 focus=00280888 foreground=00280888
+23:42:43.284 [tid=1364] WINDOW key message=0x0101 vk=0x25 repeat=1 previous=1 transition=1 focus=00280888 foreground=00280888
+23:42:43.301 [tid=1364] WINDOW key message=0x0101 vk=0x20 repeat=1 previous=1 transition=1 focus=00280888 foreground=00280888
+23:42:43.334 [tid=1364] WINDOW key message=0x0100 vk=0x27 repeat=1 previous=0 transition=0 focus=00280888 foreground=00280888
+23:42:43.501 [tid=1364] WINDOW key message=0x0101 vk=0x27 repeat=1 previous=1 transition=1 focus=00280888 foreground=00280888
+23:42:43.667 [tid=1364] WINDOW key message=0x0100 vk=0x27 repeat=1 previous=0 transition=0 focus=00280888 foreground=00280888
+23:42:43.684 [tid=1364] WINDOW key message=0x0100 vk=0x20 repeat=1 previous=0 transition=0 focus=00280888 foreground=00280888
+23:42:43.933 [tid=1364] WINDOW key message=0x0101 vk=0x20 repeat=1 previous=1 transition=1 focus=00280888 foreground=00280888
+23:42:43.968 [tid=1364] WINDOW key message=0x0101 vk=0x27 repeat=1 previous=1 transition=1 focus=00280888 foreground=00280888
+23:42:44.051 [tid=1364] WINDOW key message=0x0100 vk=0x25 repeat=1 previous=0 transition=0 focus=00280888 foreground=00280888
+23:42:44.351 [tid=1364] WINDOW key message=0x0101 vk=0x25 repeat=1 previous=1 transition=1 focus=00280888 foreground=00280888
+23:42:44.467 [tid=1364] WINDOW key message=0x0100 vk=0x25 repeat=1 previous=0 transition=0 focus=00280888 foreground=00280888
+23:42:44.500 [tid=1364] WINDOW key message=0x0100 vk=0x20 repeat=1 previous=0 transition=0 focus=00280888 foreground=00280888
+23:42:44.651 [tid=1364] WINDOW key message=0x0101 vk=0x25 repeat=1 previous=1 transition=1 focus=00280888 foreground=00280888
+23:42:44.718 [tid=1364] WINDOW key message=0x0100 vk=0x25 repeat=1 previous=0 transition=0 focus=00280888 foreground=00280888
+23:42:44.901 [tid=1364] WINDOW key message=0x0101 vk=0x20 repeat=1 previous=1 transition=1 focus=00280888 foreground=00280888
+23:42:45.085 [tid=1364] WINDOW key message=0x0101 vk=0x25 repeat=1 previous=1 transition=1 focus=00280888 foreground=00280888
+23:42:45.217 [tid=1364] WINDOW key message=0x0100 vk=0x27 repeat=1 previous=0 transition=0 focus=00280888 foreground=00280888
+23:42:45.352 [tid=1364] WINDOW key message=0x0101 vk=0x27 repeat=1 previous=1 transition=1 focus=00280888 foreground=00280888
+23:42:45.485 [tid=1364] WINDOW key message=0x0100 vk=0x27 repeat=1 previous=0 transition=0 focus=00280888 foreground=00280888
+23:42:45.551 [tid=1364] WINDOW key message=0x0100 vk=0x20 repeat=1 previous=0 transition=0 focus=00280888 foreground=00280888
+23:42:45.801 [tid=1364] WINDOW key message=0x0101 vk=0x20 repeat=1 previous=1 transition=1 focus=00280888 foreground=00280888
+23:42:46.001 [tid=1364] WINDOW key message=0x0101 vk=0x27 repeat=1 previous=1 transition=1 focus=00280888 foreground=00280888
+23:42:46.300 [tid=1364] WINDOW key message=0x0100 vk=0x27 repeat=1 previous=0 transition=0 focus=00280888 foreground=00280888
+23:42:46.734 [tid=1364] WINDOW key message=0x0101 vk=0x27 repeat=1 previous=1 transition=1 focus=00280888 foreground=00280888
+23:42:48.051 [tid=1364] WINDOW key message=0x0100 vk=0x20 repeat=1 previous=0 transition=0 focus=00280888 foreground=00280888
+23:42:48.084 [tid=1364] WINDOW key message=0x0100 vk=0x27 repeat=1 previous=0 transition=0 focus=00280888 foreground=00280888
+23:42:48.385 [tid=1364] WINDOW key message=0x0100 vk=0x26 repeat=1 previous=0 transition=0 focus=00280888 foreground=00280888
+23:42:48.501 [tid=1364] WINDOW key message=0x0101 vk=0x26 repeat=1 previous=1 transition=1 focus=00280888 foreground=00280888
+23:42:48.619 [tid=1364] WINDOW key message=0x0101 vk=0x20 repeat=1 previous=1 transition=1 focus=00280888 foreground=00280888
+23:42:48.917 [tid=1364] WINDOW key message=0x0100 vk=0x20 repeat=1 previous=0 transition=0 focus=00280888 foreground=00280888
+23:42:49.084 [tid=1364] WINDOW key message=0x0101 vk=0x27 repeat=1 previous=1 transition=1 focus=00280888 foreground=00280888
+23:42:49.117 [tid=1364] WINDOW key message=0x0101 vk=0x20 repeat=1 previous=1 transition=1 focus=00280888 foreground=00280888
+23:42:49.267 [tid=1364] WINDOW key message=0x0100 vk=0x20 repeat=1 previous=0 transition=0 focus=00280888 foreground=00280888
+23:42:49.301 [tid=1364] WINDOW key message=0x0101 vk=0x20 repeat=1 previous=1 transition=1 focus=00280888 foreground=00280888
+23:42:49.368 [tid=1364] WINDOW key message=0x0100 vk=0x26 repeat=1 previous=0 transition=0 focus=00280888 foreground=00280888
+23:42:49.417 [tid=1364] WINDOW key message=0x0101 vk=0x26 repeat=1 previous=1 transition=1 focus=00280888 foreground=00280888
+23:42:49.484 [tid=1364] WINDOW key message=0x0100 vk=0x25 repeat=1 previous=0 transition=0 focus=00280888 foreground=00280888
+23:42:49.718 [tid=1364] WINDOW key message=0x0101 vk=0x25 repeat=1 previous=1 transition=1 focus=00280888 foreground=00280888
+23:42:49.868 [tid=1364] WINDOW key message=0x0100 vk=0x20 repeat=1 previous=0 transition=0 focus=00280888 foreground=00280888
+23:42:49.934 [tid=1364] WINDOW key message=0x0100 vk=0x27 repeat=1 previous=0 transition=0 focus=00280888 foreground=00280888
+23:42:50.084 [tid=1364] WINDOW key message=0x0101 vk=0x27 repeat=1 previous=1 transition=1 focus=00280888 foreground=00280888
+23:42:50.284 [tid=1364] WINDOW key message=0x0101 vk=0x20 repeat=1 previous=1 transition=1 focus=00280888 foreground=00280888
+23:42:50.351 [tid=1364] WINDOW key message=0x0100 vk=0x27 repeat=1 previous=0 transition=0 focus=00280888 foreground=00280888
+23:42:50.884 [tid=1364] WINDOW key message=0x0100 vk=0x27 repeat=1 previous=1 transition=0 focus=00280888 foreground=00280888
+23:42:50.917 [tid=1364] WINDOW key message=0x0100 vk=0x27 repeat=1 previous=1 transition=0 focus=00280888 foreground=00280888
+23:42:50.951 [tid=1364] WINDOW key message=0x0100 vk=0x27 repeat=1 previous=1 transition=0 focus=00280888 foreground=00280888
+23:42:50.984 [tid=1364] WINDOW key message=0x0100 vk=0x27 repeat=1 previous=1 transition=0 focus=00280888 foreground=00280888
+23:42:51.002 [tid=1364] WINDOW key message=0x0100 vk=0x27 repeat=1 previous=1 transition=0 focus=00280888 foreground=00280888
+23:42:51.034 [tid=1364] WINDOW key message=0x0100 vk=0x27 repeat=1 previous=1 transition=0 focus=00280888 foreground=00280888
+23:42:51.067 [tid=1364] WINDOW key message=0x0100 vk=0x27 repeat=1 previous=1 transition=0 focus=00280888 foreground=00280888
+23:42:51.101 [tid=1364] WINDOW key message=0x0100 vk=0x27 repeat=1 previous=1 transition=0 focus=00280888 foreground=00280888
+23:42:51.134 [tid=1364] WINDOW key message=0x0100 vk=0x27 repeat=1 previous=1 transition=0 focus=00280888 foreground=00280888
+23:42:51.168 [tid=1364] WINDOW key message=0x0100 vk=0x27 repeat=1 previous=1 transition=0 focus=00280888 foreground=00280888
+23:42:51.201 [tid=1364] WINDOW key message=0x0100 vk=0x27 repeat=1 previous=1 transition=0 focus=00280888 foreground=00280888
+23:42:51.234 [tid=1364] WINDOW key message=0x0100 vk=0x27 repeat=1 previous=1 transition=0 focus=00280888 foreground=00280888
+23:42:51.268 [tid=1364] WINDOW key message=0x0100 vk=0x27 repeat=1 previous=1 transition=0 focus=00280888 foreground=00280888
+23:42:51.301 [tid=1364] WINDOW key message=0x0100 vk=0x27 repeat=1 previous=1 transition=0 focus=00280888 foreground=00280888
+23:42:51.334 [tid=1364] WINDOW key message=0x0100 vk=0x27 repeat=1 previous=1 transition=0 focus=00280888 foreground=00280888
+23:42:51.367 [tid=1364] WINDOW key message=0x0100 vk=0x27 repeat=1 previous=1 transition=0 focus=00280888 foreground=00280888
+23:42:51.400 [tid=1364] WINDOW key message=0x0100 vk=0x27 repeat=1 previous=1 transition=0 focus=00280888 foreground=00280888
+23:42:51.434 [tid=1364] WINDOW key message=0x0100 vk=0x27 repeat=1 previous=1 transition=0 focus=00280888 foreground=00280888
+23:42:51.467 [tid=1364] WINDOW key message=0x0100 vk=0x27 repeat=1 previous=1 transition=0 focus=00280888 foreground=00280888
+23:42:51.484 [tid=1364] WINDOW key message=0x0100 vk=0x27 repeat=1 previous=1 transition=0 focus=00280888 foreground=00280888
+23:42:51.517 [tid=1364] WINDOW key message=0x0100 vk=0x27 repeat=1 previous=1 transition=0 focus=00280888 foreground=00280888
+23:42:51.551 [tid=1364] WINDOW key message=0x0100 vk=0x27 repeat=1 previous=1 transition=0 focus=00280888 foreground=00280888
+23:42:51.584 [tid=1364] WINDOW key message=0x0100 vk=0x27 repeat=1 previous=1 transition=0 focus=00280888 foreground=00280888
+23:42:51.617 [tid=1364] WINDOW key message=0x0100 vk=0x27 repeat=1 previous=1 transition=0 focus=00280888 foreground=00280888
+23:42:51.651 [tid=1364] WINDOW key message=0x0100 vk=0x27 repeat=1 previous=1 transition=0 focus=00280888 foreground=00280888
+23:42:51.685 [tid=1364] WINDOW key message=0x0100 vk=0x27 repeat=1 previous=1 transition=0 focus=00280888 foreground=00280888
+23:42:51.718 [tid=1364] WINDOW key message=0x0101 vk=0x27 repeat=1 previous=1 transition=1 focus=00280888 foreground=00280888
+23:42:53.868 [tid=1364] WINDOW key message=0x0100 vk=0x43 repeat=1 previous=0 transition=0 focus=00280888 foreground=00280888
+23:42:53.984 [tid=1364] WINDOW key message=0x0101 vk=0x43 repeat=1 previous=1 transition=1 focus=00280888 foreground=00280888
+23:42:54.900 [tid=1364] WINDOW key message=0x0100 vk=0x58 repeat=1 previous=0 transition=0 focus=00280888 foreground=00280888
+23:42:55.051 [tid=1364] WINDOW key message=0x0101 vk=0x58 repeat=1 previous=1 transition=1 focus=00280888 foreground=00280888
+23:42:55.434 [tid=1364] WINDOW key message=0x0100 vk=0x43 repeat=1 previous=0 transition=0 focus=00280888 foreground=00280888
+23:42:55.551 [tid=1364] WINDOW key message=0x0101 vk=0x43 repeat=1 previous=1 transition=1 focus=00280888 foreground=00280888
+23:42:56.418 [tid=1364] WINDOW key message=0x0100 vk=0x5A repeat=1 previous=0 transition=0 focus=00280888 foreground=00280888
+23:42:56.551 [tid=1364] WINDOW key message=0x0101 vk=0x5A repeat=1 previous=1 transition=1 focus=00280888 foreground=00280888
+23:42:57.617 [tid=1364] WINDOW key message=0x0100 vk=0x1B repeat=1 previous=0 transition=0 focus=00280888 foreground=00280888
+23:42:57.618 [tid=1364] WINDOW accessibility: Escape -> exit confirmation
+23:42:57.619 [tid=1364] WINDOW focus message=0x0008 wParam=0x0 lParam=0x0 focus=00000000 foreground=00280888
+23:42:57.626 [tid=1364] WINDOW focus message=0x0006 wParam=0x0 lParam=0x5D08F6 focus=00000000 foreground=00280888
+23:42:59.790 [tid=1364] WINDOW focus message=0x0006 wParam=0x1 lParam=0x5D08F6 focus=005D08F6 foreground=00280888
+23:42:59.790 [tid=1364] WINDOW focus message=0x0007 wParam=0x5D08F6 lParam=0x0 focus=00280888 foreground=00280888
+23:42:59.790 [tid=1364] IDirectDrawSurface::SetPalette this=0872F268 palette=08773C68
+23:42:59.790 [tid=1364] IDirectDrawSurface::SetPalette -> HRESULT=0x88760091
+23:42:59.790 [tid=1364] IDirectDrawPalette::AddRef -> 3
+23:42:59.790 [tid=1364] IDirectDrawPalette::Release -> wrapper=2 real=2
+23:42:59.791 [tid=1364] IDirectDrawSurface::SetPalette(virtual) -> HRESULT=0x00000000
+23:42:59.792 [tid=1364] WINDOW accessibility: exit confirmation result=6
+23:42:59.806 [tid=1364] IDirectDrawPalette::Release -> wrapper=1 real=1
+23:42:59.806 [tid=1364] IDirectDrawSurface::Release -> wrapper=0 real=0
+23:42:59.807 [tid=1364] IDirectDrawPalette::Release -> wrapper=0 real=0
+23:42:59.807 [tid=1364] IDirectDrawSurface::Release -> wrapper=0 real=0
+23:42:59.817 [tid=1364] IDirectDraw::Release -> wrapper=0 real=0
+23:42:59.820 [tid=1364] WINDOW focus message=0x0006 wParam=0x0 lParam=0x0 focus=00280888 foreground=001B083C
+23:42:59.821 [tid=1364] WINDOW focus message=0x001C wParam=0x0 lParam=0x3AB4 focus=00280888 foreground=001B083C
+23:42:59.821 [tid=1364] WINDOW focus message=0x0008 wParam=0x0 lParam=0x0 focus=00000000 foreground=001B083C

@@ -1,0 +1,307 @@
+23:05:33.854 [tid=6828] Exception observer installation handle=004993E8
+23:05:33.854 [tid=6828] INPUT compatibility installation: SetWindowLongA=1 CallWindowProcA=1
+23:05:33.855 [tid=6828] Loaded system DirectDraw from C:\Windows\system32\ddraw.dll
+23:05:33.856 [tid=6828] DirectDrawCreate guid=00000000 outer=00000000
+23:05:33.905 [tid=6828] DirectDrawCreate(system) -> HRESULT=0x00000000 object=0872C688
+23:05:33.905 [tid=6828] IDirectDraw wrapper created: real=0872C688 wrapper=0872DA68
+23:05:33.905 [tid=6828] IDirectDraw::SetCooperativeLevel hwnd=00030692 flags=0x00000008
+23:05:33.905 [tid=6828] IDirectDraw::SetCooperativeLevel -> HRESULT=0x00000000
+23:05:33.906 [tid=6828] DWM custom preview attached: hwnd=00030692 force=0x00000000 bitmap=0x00000000 invalidate=0x00000000
+23:05:33.906 [tid=6828] Presentation window registered: hwnd=00030692
+23:05:33.906 [tid=6828] IDirectDraw::CreateSurface input: size=108 flags=0x00000001 width=0 height=0 pitch=1446344 caps=0x00000200 pfFlags=0x763C7EE0 rgbBits=916804
+23:05:33.906 [tid=6828] IDirectDraw::CreateSurface -> HRESULT=0x00000000 object=0872F5B8 outer=00000000
+23:05:33.906 [tid=6828] IDirectDraw::CreateSurface output: size=108 flags=0x00000001 width=0 height=0 pitch=1446344 caps=0x00000200 pfFlags=0x763C7EE0 rgbBits=916804
+23:05:33.906 [tid=6828] IDirectDrawSurface wrapper created: real=0872F5B8 wrapper=08730058 primary=1
+23:05:33.906 [tid=6828] IDirectDraw::CreateSurface wrap -> HRESULT=0x00000000
+23:05:33.907 [tid=6828] IDirectDrawSurface::GetPixelFormat -> HRESULT=0x00000000 flags=0x00000040 bits=32
+23:05:33.907 [tid=6828] IDirectDraw::CreateSurface input: size=108 flags=0x00000007 width=320 height=216 pitch=1446344 caps=0x00000840 pfFlags=0x763C7EE0 rgbBits=916804
+23:05:33.907 [tid=6828] IDirectDraw::CreateSurface -> HRESULT=0x00000000 object=08730218 outer=00000000
+23:05:33.907 [tid=6828] IDirectDraw::CreateSurface output: size=108 flags=0x00000007 width=320 height=216 pitch=1446344 caps=0x00000840 pfFlags=0x763C7EE0 rgbBits=916804
+23:05:33.907 [tid=6828] IDirectDrawSurface wrapper created: real=08730218 wrapper=08774518 primary=0
+23:05:33.907 [tid=6828] IDirectDraw::CreateSurface wrap -> HRESULT=0x00000000
+23:05:33.907 [tid=6828] IDirectDraw::CreateClipper flags=0x00000000 outer=00000000
+23:05:33.907 [tid=6828] IDirectDraw::CreateClipper -> HRESULT=0x00000000 object=087745A8
+23:05:33.908 [tid=6828] IDirectDrawSurface::SetClipper clipper=087745A8
+23:05:33.908 [tid=6828] IDirectDrawSurface::SetClipper -> HRESULT=0x00000000
+23:05:33.908 [tid=6828] IDirectDrawSurface::GetPixelFormat -> HRESULT=0x00000000 flags=0x00000040 bits=32
+23:05:33.908 [tid=6828] IDirectDraw::CreatePalette flags=0x00000044 entries=0044072C outer=00000000
+23:05:33.908 [tid=6828] IDirectDraw::CreatePalette -> HRESULT=0x00000000 object=08774A38
+23:05:33.908 [tid=6828] IDirectDrawPalette wrapper created: real=08774A38 wrapper=08774A58
+23:05:33.908 [tid=6828] IDirectDraw::CreatePalette wrap -> HRESULT=0x00000000
+23:05:33.908 [tid=6828] IDirectDrawSurface::Lock #1 this=08774518 flags=0x00000001 event=00000000
+23:05:33.908 [tid=6828] IDirectDrawSurface::Lock -> HRESULT=0x00000000
+23:05:33.908 [tid=6828] IDirectDrawSurface::Lock output: flags=0x0000100F width=320 height=216 pitch=1280 surface=08730240 caps=0x00000840 pfFlags=0x00000040 rgbBits=32
+23:05:33.908 [tid=6828] IDirectDrawSurface::Unlock #1 this=08774518 surface=00000000
+23:05:33.909 [tid=6828] IDirectDrawSurface::Unlock -> HRESULT=0x00000000
+23:05:33.915 [tid=6828] Presentation configuration: fullscreen=1 aspect=4:3 frameLimit=60 ini=V:\GameVaultDraw.ini
+23:05:33.919 [tid=6828] WINDOW focus message=0x0006 wParam=0x0 lParam=0x0 focus=00030692 foreground=0010062A
+23:05:33.920 [tid=6828] WINDOW focus message=0x001C wParam=0x0 lParam=0x27B4 focus=00030692 foreground=0010062A
+23:05:33.920 [tid=6828] WINDOW focus message=0x0008 wParam=0x0 lParam=0x0 focus=00000000 foreground=0010062A
+23:05:33.921 [tid=6828] Native application menu before borderless conversion: menu=0007092D items=3
+23:05:33.922 [tid=6828] IDirectDrawSurface::SetPalette this=08730058 palette=08774A58
+23:05:33.922 [tid=6828] IDirectDrawSurface::SetPalette -> HRESULT=0x88760091
+23:05:33.922 [tid=6828] IDirectDrawPalette::AddRef -> 2
+23:05:33.922 [tid=6828] IDirectDrawSurface::SetPalette(virtual) -> HRESULT=0x00000000
+23:05:33.926 [tid=6828] WINDOW focus message=0x001C wParam=0x1 lParam=0x27B4 focus=00000000 foreground=00030692
+23:05:33.927 [tid=6828] WINDOW focus message=0x0006 wParam=0x1 lParam=0x0 focus=00000000 foreground=00030692
+23:05:33.928 [tid=6828] WINDOW focus message=0x0007 wParam=0x0 lParam=0x0 focus=00030692 foreground=00030692
+23:05:33.928 [tid=6828] IDirectDrawSurface::SetPalette this=08730058 palette=08774A58
+23:05:33.928 [tid=6828] IDirectDrawSurface::SetPalette -> HRESULT=0x88760091
+23:05:33.928 [tid=6828] IDirectDrawPalette::AddRef -> 3
+23:05:33.928 [tid=6828] IDirectDrawPalette::Release -> wrapper=2 real=2
+23:05:33.928 [tid=6828] IDirectDrawSurface::SetPalette(virtual) -> HRESULT=0x00000000
+23:05:33.930 [tid=6828] IDirectDrawSurface::SetPalette this=08730058 palette=08774A58
+23:05:33.930 [tid=6828] IDirectDrawSurface::SetPalette -> HRESULT=0x88760091
+23:05:33.930 [tid=6828] IDirectDrawPalette::AddRef -> 3
+23:05:33.930 [tid=6828] IDirectDrawPalette::Release -> wrapper=2 real=2
+23:05:33.930 [tid=6828] IDirectDrawSurface::SetPalette(virtual) -> HRESULT=0x00000000
+23:05:33.931 [tid=6828] IDirectDrawSurface::SetPalette this=08730058 palette=08774A58
+23:05:33.932 [tid=6828] IDirectDrawSurface::SetPalette -> HRESULT=0x88760091
+23:05:33.932 [tid=6828] IDirectDrawPalette::AddRef -> 3
+23:05:33.932 [tid=6828] IDirectDrawPalette::Release -> wrapper=2 real=2
+23:05:33.932 [tid=6828] IDirectDrawSurface::SetPalette(virtual) -> HRESULT=0x00000000
+23:05:33.933 [tid=6828] IDirectDrawSurface::SetPalette this=08730058 palette=08774A58
+23:05:33.933 [tid=6828] IDirectDrawSurface::SetPalette -> HRESULT=0x88760091
+23:05:33.933 [tid=6828] IDirectDrawPalette::AddRef -> 3
+23:05:33.933 [tid=6828] IDirectDrawPalette::Release -> wrapper=2 real=2
+23:05:33.933 [tid=6828] IDirectDrawSurface::SetPalette(virtual) -> HRESULT=0x00000000
+23:05:33.934 [tid=6828] IDirectDrawSurface::SetPalette this=08730058 palette=08774A58
+23:05:33.934 [tid=6828] IDirectDrawSurface::SetPalette -> HRESULT=0x88760091
+23:05:33.935 [tid=6828] IDirectDrawPalette::AddRef -> 3
+23:05:33.935 [tid=6828] IDirectDrawPalette::Release -> wrapper=2 real=2
+23:05:33.935 [tid=6828] IDirectDrawSurface::SetPalette(virtual) -> HRESULT=0x00000000
+23:05:33.936 [tid=6828] IDirectDrawSurface::SetPalette this=08730058 palette=08774A58
+23:05:33.936 [tid=6828] IDirectDrawSurface::SetPalette -> HRESULT=0x88760091
+23:05:33.936 [tid=6828] IDirectDrawPalette::AddRef -> 3
+23:05:33.936 [tid=6828] IDirectDrawPalette::Release -> wrapper=2 real=2
+23:05:33.936 [tid=6828] IDirectDrawSurface::SetPalette(virtual) -> HRESULT=0x00000000
+23:05:33.937 [tid=6828] IDirectDrawSurface::SetPalette this=08730058 palette=08774A58
+23:05:33.937 [tid=6828] IDirectDrawSurface::SetPalette -> HRESULT=0x88760091
+23:05:33.937 [tid=6828] IDirectDrawPalette::AddRef -> 3
+23:05:33.937 [tid=6828] IDirectDrawPalette::Release -> wrapper=2 real=2
+23:05:33.937 [tid=6828] IDirectDrawSurface::SetPalette(virtual) -> HRESULT=0x00000000
+23:05:33.938 [tid=6828] IDirectDrawSurface::SetPalette this=08730058 palette=08774A58
+23:05:33.938 [tid=6828] IDirectDrawSurface::SetPalette -> HRESULT=0x88760091
+23:05:33.939 [tid=6828] IDirectDrawPalette::AddRef -> 3
+23:05:33.939 [tid=6828] IDirectDrawPalette::Release -> wrapper=2 real=2
+23:05:33.939 [tid=6828] IDirectDrawSurface::SetPalette(virtual) -> HRESULT=0x00000000
+23:05:33.939 [tid=6828] IDirectDrawSurface::SetPalette this=08730058 palette=08774A58
+23:05:33.940 [tid=6828] IDirectDrawSurface::SetPalette -> HRESULT=0x88760091
+23:05:33.940 [tid=6828] IDirectDrawPalette::AddRef -> 3
+23:05:33.940 [tid=6828] IDirectDrawPalette::Release -> wrapper=2 real=2
+23:05:33.940 [tid=6828] IDirectDrawSurface::SetPalette(virtual) -> HRESULT=0x00000000
+23:05:33.941 [tid=6828] IDirectDrawSurface::SetPalette this=08730058 palette=08774A58
+23:05:33.941 [tid=6828] IDirectDrawSurface::SetPalette -> HRESULT=0x88760091
+23:05:33.941 [tid=6828] IDirectDrawPalette::AddRef -> 3
+23:05:33.941 [tid=6828] IDirectDrawPalette::Release -> wrapper=2 real=2
+23:05:33.941 [tid=6828] IDirectDrawSurface::SetPalette(virtual) -> HRESULT=0x00000000
+23:05:33.942 [tid=6828] IDirectDrawSurface::SetPalette this=08730058 palette=08774A58
+23:05:33.942 [tid=6828] IDirectDrawSurface::SetPalette -> HRESULT=0x88760091
+23:05:33.942 [tid=6828] IDirectDrawPalette::AddRef -> 3
+23:05:33.943 [tid=6828] IDirectDrawPalette::Release -> wrapper=2 real=2
+23:05:33.943 [tid=6828] IDirectDrawSurface::SetPalette(virtual) -> HRESULT=0x00000000
+23:05:33.943 [tid=6828] IDirectDrawSurface::SetPalette this=08730058 palette=08774A58
+23:05:33.943 [tid=6828] IDirectDrawSurface::SetPalette -> HRESULT=0x88760091
+23:05:33.943 [tid=6828] IDirectDrawPalette::AddRef -> 3
+23:05:33.944 [tid=6828] IDirectDrawPalette::Release -> wrapper=2 real=2
+23:05:33.944 [tid=6828] IDirectDrawSurface::SetPalette(virtual) -> HRESULT=0x00000000
+23:05:33.944 [tid=6828] IDirectDrawSurface::SetPalette this=08730058 palette=08774A58
+23:05:33.944 [tid=6828] IDirectDrawSurface::SetPalette -> HRESULT=0x88760091
+23:05:33.944 [tid=6828] IDirectDrawPalette::AddRef -> 3
+23:05:33.944 [tid=6828] IDirectDrawPalette::Release -> wrapper=2 real=2
+23:05:33.944 [tid=6828] IDirectDrawSurface::SetPalette(virtual) -> HRESULT=0x00000000
+23:05:33.945 [tid=6828] IDirectDrawSurface::SetPalette this=08730058 palette=08774A58
+23:05:33.945 [tid=6828] IDirectDrawSurface::SetPalette -> HRESULT=0x88760091
+23:05:33.945 [tid=6828] IDirectDrawPalette::AddRef -> 3
+23:05:33.945 [tid=6828] IDirectDrawPalette::Release -> wrapper=2 real=2
+23:05:33.945 [tid=6828] IDirectDrawSurface::SetPalette(virtual) -> HRESULT=0x00000000
+23:05:33.946 [tid=6828] IDirectDrawSurface::SetPalette this=08730058 palette=08774A58
+23:05:33.946 [tid=6828] IDirectDrawSurface::SetPalette -> HRESULT=0x88760091
+23:05:33.946 [tid=6828] IDirectDrawPalette::AddRef -> 3
+23:05:33.946 [tid=6828] IDirectDrawPalette::Release -> wrapper=2 real=2
+23:05:33.946 [tid=6828] IDirectDrawSurface::SetPalette(virtual) -> HRESULT=0x00000000
+23:05:33.947 [tid=6828] IDirectDrawSurface::SetPalette this=08730058 palette=08774A58
+23:05:33.947 [tid=6828] IDirectDrawSurface::SetPalette -> HRESULT=0x88760091
+23:05:33.947 [tid=6828] IDirectDrawPalette::AddRef -> 3
+23:05:33.947 [tid=6828] IDirectDrawPalette::Release -> wrapper=2 real=2
+23:05:33.947 [tid=6828] IDirectDrawSurface::SetPalette(virtual) -> HRESULT=0x00000000
+23:05:33.947 [tid=6828] IDirectDrawSurface::SetPalette this=08730058 palette=08774A58
+23:05:33.948 [tid=6828] IDirectDrawSurface::SetPalette -> HRESULT=0x88760091
+23:05:33.948 [tid=6828] IDirectDrawPalette::AddRef -> 3
+23:05:33.948 [tid=6828] IDirectDrawPalette::Release -> wrapper=2 real=2
+23:05:33.948 [tid=6828] IDirectDrawSurface::SetPalette(virtual) -> HRESULT=0x00000000
+23:05:33.949 [tid=6828] IDirectDrawSurface::SetPalette this=08730058 palette=08774A58
+23:05:33.949 [tid=6828] IDirectDrawSurface::SetPalette -> HRESULT=0x88760091
+23:05:33.949 [tid=6828] IDirectDrawPalette::AddRef -> 3
+23:05:33.949 [tid=6828] IDirectDrawPalette::Release -> wrapper=2 real=2
+23:05:33.949 [tid=6828] IDirectDrawSurface::SetPalette(virtual) -> HRESULT=0x00000000
+23:05:33.950 [tid=6828] IDirectDrawSurface::SetPalette this=08730058 palette=08774A58
+23:05:33.950 [tid=6828] IDirectDrawSurface::SetPalette -> HRESULT=0x88760091
+23:05:33.950 [tid=6828] IDirectDrawPalette::AddRef -> 3
+23:05:33.950 [tid=6828] IDirectDrawPalette::Release -> wrapper=2 real=2
+23:05:33.950 [tid=6828] IDirectDrawSurface::SetPalette(virtual) -> HRESULT=0x00000000
+23:05:33.951 [tid=6828] IDirectDrawSurface::SetPalette this=08730058 palette=08774A58
+23:05:33.951 [tid=6828] IDirectDrawSurface::SetPalette -> HRESULT=0x88760091
+23:05:33.951 [tid=6828] IDirectDrawPalette::AddRef -> 3
+23:05:33.951 [tid=6828] IDirectDrawPalette::Release -> wrapper=2 real=2
+23:05:33.951 [tid=6828] IDirectDrawSurface::SetPalette(virtual) -> HRESULT=0x00000000
+23:05:33.952 [tid=6828] IDirectDrawSurface::SetPalette this=08730058 palette=08774A58
+23:05:33.952 [tid=6828] IDirectDrawSurface::SetPalette -> HRESULT=0x88760091
+23:05:33.952 [tid=6828] IDirectDrawPalette::AddRef -> 3
+23:05:33.952 [tid=6828] IDirectDrawPalette::Release -> wrapper=2 real=2
+23:05:33.952 [tid=6828] IDirectDrawSurface::SetPalette(virtual) -> HRESULT=0x00000000
+23:05:33.953 [tid=6828] IDirectDrawSurface::SetPalette this=08730058 palette=08774A58
+23:05:33.953 [tid=6828] IDirectDrawSurface::SetPalette -> HRESULT=0x88760091
+23:05:33.953 [tid=6828] IDirectDrawPalette::AddRef -> 3
+23:05:33.953 [tid=6828] IDirectDrawPalette::Release -> wrapper=2 real=2
+23:05:33.953 [tid=6828] IDirectDrawSurface::SetPalette(virtual) -> HRESULT=0x00000000
+23:05:33.953 [tid=6828] IDirectDrawSurface::SetPalette this=08730058 palette=08774A58
+23:05:33.953 [tid=6828] IDirectDrawSurface::SetPalette -> HRESULT=0x88760091
+23:05:33.954 [tid=6828] IDirectDrawPalette::AddRef -> 3
+23:05:33.954 [tid=6828] IDirectDrawPalette::Release -> wrapper=2 real=2
+23:05:33.954 [tid=6828] IDirectDrawSurface::SetPalette(virtual) -> HRESULT=0x00000000
+23:05:33.954 [tid=6828] IDirectDrawSurface::SetPalette this=08730058 palette=08774A58
+23:05:33.954 [tid=6828] IDirectDrawSurface::SetPalette -> HRESULT=0x88760091
+23:05:33.955 [tid=6828] IDirectDrawPalette::AddRef -> 3
+23:05:33.955 [tid=6828] IDirectDrawPalette::Release -> wrapper=2 real=2
+23:05:33.955 [tid=6828] IDirectDrawSurface::SetPalette(virtual) -> HRESULT=0x00000000
+23:05:33.955 [tid=6828] IDirectDrawSurface::SetPalette this=08730058 palette=08774A58
+23:05:33.955 [tid=6828] IDirectDrawSurface::SetPalette -> HRESULT=0x88760091
+23:05:33.955 [tid=6828] IDirectDrawPalette::AddRef -> 3
+23:05:33.956 [tid=6828] IDirectDrawPalette::Release -> wrapper=2 real=2
+23:05:33.956 [tid=6828] IDirectDrawSurface::SetPalette(virtual) -> HRESULT=0x00000000
+23:05:33.956 [tid=6828] IDirectDrawSurface::SetPalette this=08730058 palette=08774A58
+23:05:33.957 [tid=6828] IDirectDrawSurface::SetPalette -> HRESULT=0x88760091
+23:05:33.957 [tid=6828] IDirectDrawPalette::AddRef -> 3
+23:05:33.957 [tid=6828] IDirectDrawPalette::Release -> wrapper=2 real=2
+23:05:33.957 [tid=6828] IDirectDrawSurface::SetPalette(virtual) -> HRESULT=0x00000000
+23:05:33.957 [tid=6828] IDirectDrawSurface::SetPalette this=08730058 palette=08774A58
+23:05:33.958 [tid=6828] IDirectDrawSurface::SetPalette -> HRESULT=0x88760091
+23:05:33.958 [tid=6828] IDirectDrawPalette::AddRef -> 3
+23:05:33.958 [tid=6828] IDirectDrawPalette::Release -> wrapper=2 real=2
+23:05:33.958 [tid=6828] IDirectDrawSurface::SetPalette(virtual) -> HRESULT=0x00000000
+23:05:33.958 [tid=6828] IDirectDrawSurface::SetPalette this=08730058 palette=08774A58
+23:05:33.958 [tid=6828] IDirectDrawSurface::SetPalette -> HRESULT=0x88760091
+23:05:33.959 [tid=6828] IDirectDrawPalette::AddRef -> 3
+23:05:33.959 [tid=6828] IDirectDrawPalette::Release -> wrapper=2 real=2
+23:05:33.959 [tid=6828] IDirectDrawSurface::SetPalette(virtual) -> HRESULT=0x00000000
+23:05:33.959 [tid=6828] IDirectDrawSurface::SetPalette this=08730058 palette=08774A58
+23:05:33.959 [tid=6828] IDirectDrawSurface::SetPalette -> HRESULT=0x88760091
+23:05:33.959 [tid=6828] IDirectDrawPalette::AddRef -> 3
+23:05:33.960 [tid=6828] IDirectDrawPalette::Release -> wrapper=2 real=2
+23:05:33.960 [tid=6828] IDirectDrawSurface::SetPalette(virtual) -> HRESULT=0x00000000
+23:05:33.960 [tid=6828] IDirectDrawSurface::SetPalette this=08730058 palette=08774A58
+23:05:33.960 [tid=6828] IDirectDrawSurface::SetPalette -> HRESULT=0x88760091
+23:05:33.960 [tid=6828] IDirectDrawPalette::AddRef -> 3
+23:05:33.960 [tid=6828] IDirectDrawPalette::Release -> wrapper=2 real=2
+23:05:33.960 [tid=6828] IDirectDrawSurface::SetPalette(virtual) -> HRESULT=0x00000000
+23:05:33.961 [tid=6828] IDirectDrawSurface::SetPalette this=08730058 palette=08774A58
+23:05:33.961 [tid=6828] IDirectDrawSurface::SetPalette -> HRESULT=0x88760091
+23:05:33.961 [tid=6828] IDirectDrawPalette::AddRef -> 3
+23:05:33.961 [tid=6828] IDirectDrawPalette::Release -> wrapper=2 real=2
+23:05:33.961 [tid=6828] IDirectDrawSurface::SetPalette(virtual) -> HRESULT=0x00000000
+23:05:33.966 [tid=6828] Borderless fullscreen prepared: monitor=[0,0,1536,864] style=0x96000000 exStyle=0x00040000 owner=00000000
+23:05:33.966 [tid=6828] IDirectDrawSurface::Blt #1 this=08730058 source=08774518 flags=0x01000000 effects=00000000
+23:05:33.966 [tid=6828]   destination(input)=[608,354,928,-4535554]
+23:05:33.966 [tid=6828]   source=[0,0,320,200]
+23:05:33.966 [tid=6828]   destination(repaired)=[192,0,1344,864]
+23:05:33.971 [tid=6828] IDirectDrawSurface::Blt -> HRESULT=0x00000000
+23:05:34.059 [tid=6828] IDirectDrawSurface::Lock #2 this=08774518 flags=0x00000001 event=00000000
+23:05:34.059 [tid=6828] IDirectDrawSurface::Lock -> HRESULT=0x00000000
+23:05:34.059 [tid=6828] IDirectDrawSurface::Lock output: flags=0x0000100F width=320 height=216 pitch=1280 surface=08730240 caps=0x00000840 pfFlags=0x00000040 rgbBits=32
+23:05:34.060 [tid=6828] IDirectDrawSurface::Unlock #2 this=08774518 surface=00000000
+23:05:34.060 [tid=6828] IDirectDrawSurface::Unlock -> HRESULT=0x00000000
+23:05:34.060 [tid=6828] IDirectDrawSurface::Blt #2 this=08730058 source=08774518 flags=0x01000000 effects=00000000
+23:05:34.060 [tid=6828]   destination(input)=[0,0,2016,-4503966]
+23:05:34.060 [tid=6828]   source=[0,0,320,200]
+23:05:34.060 [tid=6828]   destination(repaired)=[192,0,1344,864]
+23:05:34.063 [tid=6828] IDirectDrawSurface::Blt -> HRESULT=0x00000000
+23:05:34.065 [tid=6828] IDirectDrawSurface::Lock #3 this=08774518 flags=0x00000001 event=00000000
+23:05:34.065 [tid=6828] IDirectDrawSurface::Lock -> HRESULT=0x00000000
+23:05:34.065 [tid=6828] IDirectDrawSurface::Lock output: flags=0x0000100F width=320 height=216 pitch=1280 surface=08730240 caps=0x00000840 pfFlags=0x00000040 rgbBits=32
+23:05:34.066 [tid=6828] IDirectDrawSurface::Unlock #3 this=08774518 surface=00000000
+23:05:34.066 [tid=6828] IDirectDrawSurface::Unlock -> HRESULT=0x00000000
+23:05:34.082 [tid=6828] IDirectDrawSurface::Blt #3 this=08730058 source=08774518 flags=0x01000000 effects=00000000
+23:05:34.082 [tid=6828]   destination(input)=[0,0,2016,-4503966]
+23:05:34.082 [tid=6828]   source=[0,0,320,200]
+23:05:34.082 [tid=6828]   destination(repaired)=[192,0,1344,864]
+23:05:34.084 [tid=6828] IDirectDrawSurface::Blt -> HRESULT=0x00000000
+23:05:34.086 [tid=6828] IDirectDrawSurface::Lock #4 this=08774518 flags=0x00000001 event=00000000
+23:05:34.086 [tid=6828] IDirectDrawSurface::Lock -> HRESULT=0x00000000
+23:05:34.086 [tid=6828] IDirectDrawSurface::Lock output: flags=0x0000100F width=320 height=216 pitch=1280 surface=08730240 caps=0x00000840 pfFlags=0x00000040 rgbBits=32
+23:05:34.086 [tid=6828] IDirectDrawSurface::Unlock #4 this=08774518 surface=00000000
+23:05:34.087 [tid=6828] IDirectDrawSurface::Unlock -> HRESULT=0x00000000
+23:05:34.097 [tid=6828] IDirectDrawSurface::Blt #4 this=08730058 source=08774518 flags=0x01000000 effects=00000000
+23:05:34.097 [tid=6828]   destination(input)=[0,0,2016,-4503966]
+23:05:34.097 [tid=6828]   source=[0,0,320,200]
+23:05:34.097 [tid=6828]   destination(repaired)=[192,0,1344,864]
+23:05:34.099 [tid=6828] IDirectDrawSurface::Blt -> HRESULT=0x00000000
+23:05:34.100 [tid=6828] IDirectDrawSurface::Lock #5 this=08774518 flags=0x00000001 event=00000000
+23:05:34.100 [tid=6828] IDirectDrawSurface::Lock -> HRESULT=0x00000000
+23:05:34.100 [tid=6828] IDirectDrawSurface::Lock output: flags=0x0000100F width=320 height=216 pitch=1280 surface=08730240 caps=0x00000840 pfFlags=0x00000040 rgbBits=32
+23:05:34.100 [tid=6828] IDirectDrawSurface::Unlock #5 this=08774518 surface=00000000
+23:05:34.100 [tid=6828] IDirectDrawSurface::Unlock -> HRESULT=0x00000000
+23:05:34.112 [tid=6828] IDirectDrawSurface::Blt #5 this=08730058 source=08774518 flags=0x01000000 effects=00000000
+23:05:34.112 [tid=6828]   destination(input)=[0,0,2016,-4503966]
+23:05:34.112 [tid=6828]   source=[0,0,320,200]
+23:05:34.112 [tid=6828]   destination(repaired)=[192,0,1344,864]
+23:05:34.114 [tid=6828] IDirectDrawSurface::Blt -> HRESULT=0x00000000
+23:05:34.114 [tid=6828] IDirectDrawSurface::Lock #6 this=08774518 flags=0x00000001 event=00000000
+23:05:34.114 [tid=6828] IDirectDrawSurface::Lock -> HRESULT=0x00000000
+23:05:34.114 [tid=6828] IDirectDrawSurface::Lock output: flags=0x0000100F width=320 height=216 pitch=1280 surface=08730240 caps=0x00000840 pfFlags=0x00000040 rgbBits=32
+23:05:34.114 [tid=6828] IDirectDrawSurface::Unlock #6 this=08774518 surface=00000000
+23:05:34.114 [tid=6828] IDirectDrawSurface::Unlock -> HRESULT=0x00000000
+23:05:34.128 [tid=6828] IDirectDrawSurface::Blt #6 this=08730058 source=08774518 flags=0x01000000 effects=00000000
+23:05:34.128 [tid=6828]   destination(input)=[0,0,2016,-4503966]
+23:05:34.128 [tid=6828]   source=[0,0,320,200]
+23:05:34.128 [tid=6828]   destination(repaired)=[192,0,1344,864]
+23:05:34.130 [tid=6828] IDirectDrawSurface::Blt -> HRESULT=0x00000000
+23:05:34.131 [tid=6828] IDirectDrawSurface::Lock #7 this=08774518 flags=0x00000001 event=00000000
+23:05:34.131 [tid=6828] IDirectDrawSurface::Lock -> HRESULT=0x00000000
+23:05:34.131 [tid=6828] IDirectDrawSurface::Lock output: flags=0x0000100F width=320 height=216 pitch=1280 surface=08730240 caps=0x00000840 pfFlags=0x00000040 rgbBits=32
+23:05:34.131 [tid=6828] IDirectDrawSurface::Unlock #7 this=08774518 surface=00000000
+23:05:34.131 [tid=6828] IDirectDrawSurface::Unlock -> HRESULT=0x00000000
+23:05:34.144 [tid=6828] IDirectDrawSurface::Blt #7 this=08730058 source=08774518 flags=0x01000000 effects=00000000
+23:05:34.144 [tid=6828]   destination(input)=[0,0,2016,-4503966]
+23:05:34.144 [tid=6828]   source=[0,0,320,200]
+23:05:34.144 [tid=6828]   destination(repaired)=[192,0,1344,864]
+23:05:34.146 [tid=6828] IDirectDrawSurface::Blt -> HRESULT=0x00000000
+23:05:34.146 [tid=6828] IDirectDrawSurface::Lock #8 this=08774518 flags=0x00000001 event=00000000
+23:05:34.147 [tid=6828] IDirectDrawSurface::Lock -> HRESULT=0x00000000
+23:05:34.147 [tid=6828] IDirectDrawSurface::Lock output: flags=0x0000100F width=320 height=216 pitch=1280 surface=08730240 caps=0x00000840 pfFlags=0x00000040 rgbBits=32
+23:05:34.147 [tid=6828] IDirectDrawSurface::Unlock #8 this=08774518 surface=00000000
+23:05:34.147 [tid=6828] IDirectDrawSurface::Unlock -> HRESULT=0x00000000
+23:05:34.160 [tid=6828] IDirectDrawSurface::Blt #8 this=08730058 source=08774518 flags=0x01000000 effects=00000000
+23:05:34.160 [tid=6828]   destination(input)=[0,0,2016,-4503966]
+23:05:34.161 [tid=6828]   source=[0,0,320,200]
+23:05:34.161 [tid=6828]   destination(repaired)=[192,0,1344,864]
+23:05:34.163 [tid=6828] IDirectDrawSurface::Blt -> HRESULT=0x00000000
+23:05:52.746 [tid=6828] WINDOW key message=0x0100 vk=0x71 repeat=1 previous=0 transition=0 focus=00030692 foreground=00030692
+23:05:52.746 [tid=6828] WINDOW accessibility: F2 -> native Properties command 201
+23:05:52.762 [tid=6828] WINDOW command id=201 notification=0 source=00000000
+23:05:52.762 [tid=6828] WINDOW focus message=0x0008 wParam=0x0 lParam=0x0 focus=00000000 foreground=00030692
+23:05:52.767 [tid=6828] WINDOW focus message=0x0006 wParam=0x0 lParam=0x40C2A focus=00000000 foreground=00030692
+23:05:55.504 [tid=6828] INPUT compat: subclass hwnd=000B00AA gameProc=00407878 previousProc=777B87A0
+23:05:55.504 [tid=6828] INPUT compat: subclass hwnd=004202CE gameProc=0040789E previousProc=777B87A0
+23:05:55.504 [tid=6828] INPUT compat: subclass hwnd=006E00A2 gameProc=004078C4 previousProc=777B87A0
+23:05:55.504 [tid=6828] INPUT compat: corrected previous WndProc hwnd=000B00AA supplied=763ADD70 actual=777B87A0 message=0x000C
+23:05:55.504 [tid=6828] INPUT compat: corrected previous WndProc hwnd=004202CE supplied=763ADD70 actual=777B87A0 message=0x000C
+23:05:55.504 [tid=6828] INPUT compat: corrected previous WndProc hwnd=006E00A2 supplied=763ADD70 actual=777B87A0 message=0x000C
+23:05:55.506 [tid=6828] INPUT compat: corrected previous WndProc hwnd=000B00AA supplied=763ADD70 actual=777B87A0 message=0x0087
+23:05:55.506 [tid=6828] INPUT compat: corrected previous WndProc hwnd=000B00AA supplied=763ADD70 actual=777B87A0 message=0x00B1
+23:05:55.506 [tid=6828] INPUT compat: corrected previous WndProc hwnd=000B00AA supplied=763ADD70 actual=777B87A0 message=0x0281
+23:05:55.509 [tid=6828] INPUT compat: corrected previous WndProc hwnd=000B00AA supplied=763ADD70 actual=777B87A0 message=0x0007
+23:05:55.509 [tid=6828] INPUT compat: corrected previous WndProc hwnd=000B00AA supplied=763ADD70 actual=777B87A0 message=0x0282
+23:05:55.509 [tid=6828] INPUT compat: corrected previous WndProc hwnd=000B00AA supplied=763ADD70 actual=777B87A0 message=0x0282
+23:05:55.509 [tid=6828] INPUT compat: corrected previous WndProc hwnd=000B00AA supplied=763ADD70 actual=777B87A0 message=0x0282
+23:05:55.510 [tid=6828] INPUT compat: corrected previous WndProc hwnd=000B00AA supplied=763ADD70 actual=777B87A0 message=0x043C
+23:05:55.510 [tid=6828] INPUT compat: corrected previous WndProc hwnd=000B00AA supplied=763ADD70 actual=777B87A0 message=0x0055
+23:05:55.510 [tid=6828] INPUT compat: corrected previous WndProc hwnd=000B00AA supplied=763ADD70 actual=777B87A0 message=0x000E
+23:05:55.510 [tid=6828] INPUT compat: corrected previous WndProc hwnd=000B00AA supplied=763ADD70 actual=777B87A0 message=0x000D
+23:05:55.510 [tid=6828] INPUT compat: corrected previous WndProc hwnd=000B00AA supplied=763ADD70 actual=777B87A0 message=0x00B0
+23:05:55.511 [tid=6828] EXCEPTION #1 code=0xC0000005 instruction=763D9100 operation=1 target=0000EA80
+23:05:55.511 [tid=6828] EXCEPTION x86 eip=763D9100 esp=000DE670 ebp=000DE6AC eax=00000000 ebx=1B3C17A8 ecx=0000EA80 edx=000000D0 esi=00DEBE10 edi=00DEBE10 eflags=00210202
+23:05:55.511 [tid=6828] EXCEPTION stack esp+00: 000B00AA 00DEBE10 08000000 000B00AA 00000001 00000000 00000000 00000000
+23:05:55.511 [tid=6828] EXCEPTION stack esp+20: 00000000 00000000 00000000 00000000 00000000 1924B5A5 00000000 000DE6D4
+23:05:55.511 [tid=6828] EXCEPTION stack esp+40: 763ADE45 00DEBE10 00000000 000000B0 0000EA80 000DEA7C 00000000 00DEBE10
+23:05:55.512 [tid=6828] EXCEPTION stack esp+60: 000000B0 000DE700 763ADDBE 00DEBE10 00000000 000000B0 0000EA80 000DEA7C

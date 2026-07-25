@@ -1,0 +1,113 @@
+10:48:55.696 [tid=20448] Exception observer installation handle=00148798
+10:48:55.698 [tid=20448] Loaded system DirectDraw from C:\Windows\system32\ddraw.dll
+10:48:55.698 [tid=20448] DirectDrawCreate guid=00000000 outer=00000000
+10:48:55.744 [tid=20448] DirectDrawCreate(system) -> HRESULT=0x00000000 object=0872CFA8
+10:48:55.745 [tid=20448] IDirectDraw wrapper created: real=0872CFA8 wrapper=0872E388
+10:48:55.745 [tid=20448] IDirectDraw::SetCooperativeLevel hwnd=00320954 flags=0x00000008
+10:48:55.745 [tid=20448] IDirectDraw::SetCooperativeLevel -> HRESULT=0x00000000
+10:48:55.745 [tid=20448] IDirectDraw::CreateSurface input: size=108 flags=0x00000001 width=0 height=0 pitch=6361544 caps=0x00000200 pfFlags=0x763C7EE0 rgbBits=916804
+10:48:55.747 [tid=20448] IDirectDraw::CreateSurface -> HRESULT=0x00000000 object=0872CD48 outer=00000000
+10:48:55.747 [tid=20448] IDirectDraw::CreateSurface output: size=108 flags=0x00000001 width=0 height=0 pitch=6361544 caps=0x00000200 pfFlags=0x763C7EE0 rgbBits=916804
+10:48:55.747 [tid=20448] IDirectDrawSurface wrapper created: real=0872CD48 wrapper=08730848
+10:48:55.747 [tid=20448] IDirectDraw::CreateSurface wrap -> HRESULT=0x00000000
+10:48:55.747 [tid=20448] IDirectDrawSurface::GetPixelFormat -> HRESULT=0x00000000 flags=0x00000040 bits=32
+10:48:55.747 [tid=20448] IDirectDraw::CreateSurface input: size=108 flags=0x00000007 width=320 height=216 pitch=6361544 caps=0x00000840 pfFlags=0x763C7EE0 rgbBits=916804
+10:48:55.748 [tid=20448] IDirectDraw::CreateSurface -> HRESULT=0x00000000 object=0872CD68 outer=00000000
+10:48:55.748 [tid=20448] IDirectDraw::CreateSurface output: size=108 flags=0x00000007 width=320 height=216 pitch=6361544 caps=0x00000840 pfFlags=0x763C7EE0 rgbBits=916804
+10:48:55.748 [tid=20448] IDirectDrawSurface wrapper created: real=0872CD68 wrapper=08774CD8
+10:48:55.748 [tid=20448] IDirectDraw::CreateSurface wrap -> HRESULT=0x00000000
+10:48:55.748 [tid=20448] IDirectDraw::CreateClipper flags=0x00000000 outer=00000000
+10:48:55.748 [tid=20448] IDirectDraw::CreateClipper -> HRESULT=0x00000000 object=08774D58
+10:48:55.748 [tid=20448] IDirectDrawSurface::SetClipper clipper=08774D58
+10:48:55.748 [tid=20448] IDirectDrawSurface::SetClipper -> HRESULT=0x00000000
+10:48:55.748 [tid=20448] IDirectDrawSurface::GetPixelFormat -> HRESULT=0x00000000 flags=0x00000040 bits=32
+10:48:55.749 [tid=20448] IDirectDraw::CreatePalette flags=0x00000044 entries=0044072C outer=00000000
+10:48:55.749 [tid=20448] IDirectDraw::CreatePalette -> HRESULT=0x00000000 object=087751E8
+10:48:55.749 [tid=20448] IDirectDrawPalette wrapper created: real=087751E8 wrapper=08775208
+10:48:55.749 [tid=20448] IDirectDraw::CreatePalette wrap -> HRESULT=0x00000000
+10:48:55.749 [tid=20448] IDirectDrawSurface::Lock #1 this=08774CD8 flags=0x00000001 event=00000000
+10:48:55.749 [tid=20448] IDirectDrawSurface::Lock -> HRESULT=0x00000000
+10:48:55.749 [tid=20448] IDirectDrawSurface::Lock output: flags=0x0000100F width=320 height=216 pitch=1280 surface=08730A00 caps=0x00000840 pfFlags=0x00000040 rgbBits=32
+10:48:55.749 [tid=20448] IDirectDrawSurface::Unlock #1 this=08774CD8 surface=00000000
+10:48:55.749 [tid=20448] IDirectDrawSurface::Unlock -> HRESULT=0x00000000
+10:48:55.749 [tid=20448] IDirectDrawSurface::Blt #1 this=08730848 source=08774CD8 flags=0x01000000 effects=00000000
+10:48:55.749 [tid=20448]   destination(input)=[608,354,928,-1062770]
+10:48:55.749 [tid=20448]   source=[0,0,320,200]
+10:48:55.750 [tid=20448]   destination(repaired)=[608,354,928,554]
+10:48:55.754 [tid=20448] IDirectDrawSurface::Blt -> HRESULT=0x00000000
+10:48:55.829 [tid=20448] IDirectDrawSurface::Lock #2 this=08774CD8 flags=0x00000001 event=00000000
+10:48:55.829 [tid=20448] IDirectDrawSurface::Lock -> HRESULT=0x00000000
+10:48:55.829 [tid=20448] IDirectDrawSurface::Lock output: flags=0x0000100F width=320 height=216 pitch=1280 surface=08730A00 caps=0x00000840 pfFlags=0x00000040 rgbBits=32
+10:48:55.829 [tid=20448] IDirectDrawSurface::Unlock #2 this=08774CD8 surface=00000000
+10:48:55.830 [tid=20448] IDirectDrawSurface::Unlock -> HRESULT=0x00000000
+10:48:55.830 [tid=20448] IDirectDrawSurface::Blt #2 this=08730848 source=08774CD8 flags=0x01000000 effects=00000000
+10:48:55.830 [tid=20448]   destination(input)=[608,354,928,-1062770]
+10:48:55.830 [tid=20448]   source=[0,0,320,200]
+10:48:55.830 [tid=20448]   destination(repaired)=[608,354,928,554]
+10:48:55.830 [tid=20448] IDirectDrawSurface::Blt -> HRESULT=0x00000000
+10:48:55.832 [tid=20448] IDirectDrawSurface::Lock #3 this=08774CD8 flags=0x00000001 event=00000000
+10:48:55.833 [tid=20448] IDirectDrawSurface::Lock -> HRESULT=0x00000000
+10:48:55.833 [tid=20448] IDirectDrawSurface::Lock output: flags=0x0000100F width=320 height=216 pitch=1280 surface=08730A00 caps=0x00000840 pfFlags=0x00000040 rgbBits=32
+10:48:55.833 [tid=20448] IDirectDrawSurface::Unlock #3 this=08774CD8 surface=00000000
+10:48:55.833 [tid=20448] IDirectDrawSurface::Unlock -> HRESULT=0x00000000
+10:48:55.833 [tid=20448] IDirectDrawSurface::Blt #3 this=08730848 source=08774CD8 flags=0x01000000 effects=00000000
+10:48:55.833 [tid=20448]   destination(input)=[608,354,928,-1062770]
+10:48:55.834 [tid=20448]   source=[0,0,320,200]
+10:48:55.835 [tid=20448]   destination(repaired)=[608,354,928,554]
+10:48:55.835 [tid=20448] IDirectDrawSurface::Blt -> HRESULT=0x00000000
+10:48:55.835 [tid=20448] IDirectDrawSurface::Lock #4 this=08774CD8 flags=0x00000001 event=00000000
+10:48:55.835 [tid=20448] IDirectDrawSurface::Lock -> HRESULT=0x00000000
+10:48:55.835 [tid=20448] IDirectDrawSurface::Lock output: flags=0x0000100F width=320 height=216 pitch=1280 surface=08730A00 caps=0x00000840 pfFlags=0x00000040 rgbBits=32
+10:48:55.835 [tid=20448] IDirectDrawSurface::Unlock #4 this=08774CD8 surface=00000000
+10:48:55.836 [tid=20448] IDirectDrawSurface::Unlock -> HRESULT=0x00000000
+10:48:55.836 [tid=20448] IDirectDrawSurface::Blt #4 this=08730848 source=08774CD8 flags=0x01000000 effects=00000000
+10:48:55.836 [tid=20448]   destination(input)=[608,354,928,-1062770]
+10:48:55.836 [tid=20448]   source=[0,0,320,200]
+10:48:55.836 [tid=20448]   destination(repaired)=[608,354,928,554]
+10:48:55.837 [tid=20448] IDirectDrawSurface::Blt -> HRESULT=0x00000000
+10:48:55.837 [tid=20448] IDirectDrawSurface::Lock #5 this=08774CD8 flags=0x00000001 event=00000000
+10:48:55.837 [tid=20448] IDirectDrawSurface::Lock -> HRESULT=0x00000000
+10:48:55.837 [tid=20448] IDirectDrawSurface::Lock output: flags=0x0000100F width=320 height=216 pitch=1280 surface=08730A00 caps=0x00000840 pfFlags=0x00000040 rgbBits=32
+10:48:55.837 [tid=20448] IDirectDrawSurface::Unlock #5 this=08774CD8 surface=00000000
+10:48:55.837 [tid=20448] IDirectDrawSurface::Unlock -> HRESULT=0x00000000
+10:48:55.837 [tid=20448] IDirectDrawSurface::Blt #5 this=08730848 source=08774CD8 flags=0x01000000 effects=00000000
+10:48:55.837 [tid=20448]   destination(input)=[608,354,928,-1062770]
+10:48:55.837 [tid=20448]   source=[0,0,320,200]
+10:48:55.837 [tid=20448]   destination(repaired)=[608,354,928,554]
+10:48:55.838 [tid=20448] IDirectDrawSurface::Blt -> HRESULT=0x00000000
+10:48:55.838 [tid=20448] IDirectDrawSurface::Lock #6 this=08774CD8 flags=0x00000001 event=00000000
+10:48:55.839 [tid=20448] IDirectDrawSurface::Lock -> HRESULT=0x00000000
+10:48:55.839 [tid=20448] IDirectDrawSurface::Lock output: flags=0x0000100F width=320 height=216 pitch=1280 surface=08730A00 caps=0x00000840 pfFlags=0x00000040 rgbBits=32
+10:48:55.839 [tid=20448] IDirectDrawSurface::Unlock #6 this=08774CD8 surface=00000000
+10:48:55.839 [tid=20448] IDirectDrawSurface::Unlock -> HRESULT=0x00000000
+10:48:55.839 [tid=20448] IDirectDrawSurface::Blt #6 this=08730848 source=08774CD8 flags=0x01000000 effects=00000000
+10:48:55.840 [tid=20448]   destination(input)=[608,354,928,-1062770]
+10:48:55.840 [tid=20448]   source=[0,0,320,200]
+10:48:55.840 [tid=20448]   destination(repaired)=[608,354,928,554]
+10:48:55.840 [tid=20448] IDirectDrawSurface::Blt -> HRESULT=0x00000000
+10:48:55.841 [tid=20448] IDirectDrawSurface::Lock #7 this=08774CD8 flags=0x00000001 event=00000000
+10:48:55.841 [tid=20448] IDirectDrawSurface::Lock -> HRESULT=0x00000000
+10:48:55.841 [tid=20448] IDirectDrawSurface::Lock output: flags=0x0000100F width=320 height=216 pitch=1280 surface=08730A00 caps=0x00000840 pfFlags=0x00000040 rgbBits=32
+10:48:55.841 [tid=20448] IDirectDrawSurface::Unlock #7 this=08774CD8 surface=00000000
+10:48:55.841 [tid=20448] IDirectDrawSurface::Unlock -> HRESULT=0x00000000
+10:48:55.841 [tid=20448] IDirectDrawSurface::Blt #7 this=08730848 source=08774CD8 flags=0x01000000 effects=00000000
+10:48:55.841 [tid=20448]   destination(input)=[608,354,928,-1062770]
+10:48:55.841 [tid=20448]   source=[0,0,320,200]
+10:48:55.842 [tid=20448]   destination(repaired)=[608,354,928,554]
+10:48:55.843 [tid=20448] IDirectDrawSurface::Blt -> HRESULT=0x00000000
+10:48:55.843 [tid=20448] IDirectDrawSurface::Lock #8 this=08774CD8 flags=0x00000001 event=00000000
+10:48:55.843 [tid=20448] IDirectDrawSurface::Lock -> HRESULT=0x00000000
+10:48:55.844 [tid=20448] IDirectDrawSurface::Lock output: flags=0x0000100F width=320 height=216 pitch=1280 surface=08730A00 caps=0x00000840 pfFlags=0x00000040 rgbBits=32
+10:48:55.844 [tid=20448] IDirectDrawSurface::Unlock #8 this=08774CD8 surface=00000000
+10:48:55.844 [tid=20448] IDirectDrawSurface::Unlock -> HRESULT=0x00000000
+10:48:55.844 [tid=20448] IDirectDrawSurface::Blt #8 this=08730848 source=08774CD8 flags=0x01000000 effects=00000000
+10:48:55.844 [tid=20448]   destination(input)=[608,354,928,-1062770]
+10:48:55.844 [tid=20448]   source=[0,0,320,200]
+10:48:55.844 [tid=20448]   destination(repaired)=[608,354,928,554]
+10:48:55.845 [tid=20448] IDirectDrawSurface::Blt -> HRESULT=0x00000000
+10:49:05.542 [tid=20448] EXCEPTION #1 code=0xC0000005 instruction=72745F77 operation=0 target=72745F77
+10:49:05.542 [tid=20448] EXCEPTION x86 eip=72745F77 esp=000DFC98 ebp=656D6167 eax=00000000 ebx=61726474 ecx=6C756176 edx=005C0001 esi=0043D10E edi=05740E30 eflags=00010202
+10:49:05.542 [tid=20448] EXCEPTION stack esp+00: 5F656361 31303076 7469745C 6D2E656C 61206469 7361696C 77203020 00746961
+10:49:05.542 [tid=20448] EXCEPTION stack esp+20: 5356769E 00000001 0B3B5B6C 53567650 80070057 000DFCE4 5357BF48 0B3D7E58
+10:49:05.542 [tid=20448] EXCEPTION stack esp+40: 0B3B5B58 0B3F6C60 0B3EC190 000DFCF8 5357BED8 0B3F2780 0B3F6C60 0B3F2780
+10:49:05.544 [tid=20448] EXCEPTION stack esp+60: 000DFD1C 5357BE7B 0B3F2780 0B3F6C60 5357BEB3 00000000 00000D08 0B3F2780
