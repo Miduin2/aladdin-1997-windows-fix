@@ -1,47 +1,49 @@
 # Validation record
 
-Date: 2026-07-22  
 Host: Windows 10 22H2, build 19045.6466
 
 ## Real-game acceptance
 
-The game owner validated the complete flow with GameVaultDraw DLL SHA-256
-`B421ADD985DE9AF3D2F5EE8FBAC037FFC66ADE696F02486CA8DD21642827B90B`
-and the console-free launcher build SHA-256
-`BB74321E051C10310D3E2904A352B6A4E55BAC376E84A35489BF2E313815B1A7`.
-Rendering, audio, gameplay, 60 FPS, 4:3 presentation, task switching, DWM
-preview, F2, Esc, difficulty, Joystick, Keyboard and remapping passed.
+The game owner validated the complete flow: opening logos, main menu,
+gameplay, MIDI music, voices, sound effects, 60 FPS, 4:3 presentation, task
+switching, DWM preview, `F2`, `Esc`, difficulty, Joystick, Keyboard and input
+remapping.
 
-That private launcher embedded an icon extracted from the owned game. It is
-preserved only in the private validation workspace and is **not** distributed.
+Version 1.1.2 additionally validates that the permanent busy cursor is hidden
+during play, returns for `F2` Properties and the `Esc` exit dialog, and behaves
+normally across Alt+Tab.
 
-## Public binaries — 1.1.1
+## Public binaries — 1.1.2
 
-The public DLL SHA-256 is
-`B2200A365FB371DE34FFD87734086B4D3DF4174FED85F91FDD2E0B6660C05C27`
-and the public launcher SHA-256 is
-`44BA3FB33C0FFF64E31198CD5FE6810E10BF5C059656F06F020B620279FDF300`.
-They are built from the same functional source after removing the third-party
-icon and embedded local PDB paths. Version 1.1.1 changes only public naming,
-English user-facing text, version metadata and the exit prompt; the validated
-rendering and input paths are unchanged. The following passed:
+- `ddraw.dll`:
+  `F60CDC156F40BB29866618D9AB2DEB9057E5C7B6A94939F37CDDD85A9106C45C`
+- `GameVaultDraw.ini`:
+  `57E0DF9C9C29CC8B147D400C917171ABACB6AC21DB5B01B758DCA07396E58167`
+- `Play Aladdin.exe`:
+  `6DF132AACFDFBBBAE3728BE6F208ABDEDFA0BE7C08E90462B35F9F48A9A361D8`
+
+The following automated checks passed:
 
 - x86 Release build;
-- two consecutive clean builds with identical SHA-256 output;
+- DirectDraw smoke test at 1920×1080, 32 bpp;
 - native launcher integration test with a stub game;
 - temporary `SUBST` path creation and removal;
 - hidden/no-console launch and clean exit;
-- installer, idempotence and verified restore cycle;
-- Game Vault recipe round-trip to the exact patched executable hash;
-- Microsoft Defender custom scan: zero detections for the release directory.
-- privacy scan: no user profile paths, credentials, e-mail addresses or
-  network identifiers in the public package.
+- installer and verified restore cycle;
+- recipe round-trip to the exact patched executable hash;
+- privacy scan for user paths, credentials, e-mail addresses and network
+  identifiers.
 
-The README gameplay image was separately audited. It contains only standard
-PNG image, colour and resolution chunks, with no EXIF, textual metadata, user
-paths or account information.
+The public binary has no icon extracted from the owned game and no local PDB
+path.
 
-## Diagnostic counts
+## Privacy-audited screenshot
+
+The README gameplay image contains only standard PNG image, colour and
+resolution chunks. It has no EXIF or textual metadata, user paths or account
+information.
+
+## Historical diagnostic counts
 
 | Evidence | Exceptions | Input subclasses | Pointer repairs |
 |---|---:|---:|---:|

@@ -49,9 +49,11 @@ property pages. Their ten 1996 edit-control callbacks truncate the pointer in
 calls, recognises those callbacks by RVA and reconstructs only the affected
 pointer when its companion pointer proves that they are adjacent.
 
-The validated 1.1.0 release therefore supports the original System, Sound,
+The validated release therefore supports the original System, Sound,
 Difficulty, Joystick and Keyboard pages, including changes to difficulty and
-keyboard bindings.
+keyboard bindings. Version 1.1.2 also hides the original busy cursor only while
+the main game window is enabled, so modal Properties and exit dialogs keep
+their normal cursor.
 
 ## Build
 

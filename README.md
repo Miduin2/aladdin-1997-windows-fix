@@ -43,7 +43,9 @@ creates a checked backup and refuses unsupported versions. Run
 - taskbar, Alt+Tab, thumbnail and live-preview integration;
 - crashes in the original Joystick and Keyboard settings pages;
 - access to the original Properties panel with `F2`;
-- a safe pause-and-exit dialog with `Esc`.
+- a safe pause-and-exit dialog with `Esc`;
+- the permanent Windows busy cursor during gameplay, while retaining a normal
+  cursor for Properties and exit dialogs.
 
 The default presentation is borderless 4:3 at 60 FPS and does not change the
 desktop resolution.
@@ -71,11 +73,12 @@ release asset, not committed to the source tree.
 
 ## Validation status
 
-Version 1.1.1 was validated with the opening logos, main menu, gameplay, MIDI
+Version 1.1.2 was validated with the opening logos, main menu, gameplay, MIDI
 music, voices, sound effects, difficulty changes, keyboard remapping, Joystick
 and Keyboard settings pages, `F2`, `Esc`, taskbar and `Alt+Tab`. The patch
-contains no original game files and accepts only the executable whose hash is
-listed above.
+also hides the busy cursor during play and restores it for dialogs. It contains
+no original game files and accepts only the executable whose hash is listed
+above.
 
 A detailed technical report is also available
 [in Spanish](docs/TECHNICAL_REPORT.es.md).

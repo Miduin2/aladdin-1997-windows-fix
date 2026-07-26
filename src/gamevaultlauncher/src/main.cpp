@@ -375,7 +375,7 @@ int WINAPI wWinMain(HINSTANCE, HINSTANCE, PWSTR, int)
         return ShowError(L"The launcher directory could not be determined.", GetLastError());
     }
     g_logPath = JoinPath(directory, L"GameVaultLauncher.log");
-    Log(L"Launcher 1.1.1 starting directory=%ls", directory.c_str());
+    Log(L"Launcher 1.1.2 starting directory=%ls", directory.c_str());
 
     const HANDLE mutex = CreateMutexW(nullptr, TRUE, kLauncherMutex);
     if (!mutex)

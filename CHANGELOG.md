@@ -1,5 +1,12 @@
 # Changelog
 
+## 1.1.2 — 2026-07-26
+
+- Hide the original permanent busy cursor over the enabled game surface.
+- Restore the normal cursor automatically for Properties and exit dialogs.
+- Preserve the validated rendering, timing, audio, input and Windows
+  integration behaviour from 1.1.1.
+
 ## 1.1.1 — 2026-07-25
 
 - Renamed the public launcher to `Play Aladdin.exe`.

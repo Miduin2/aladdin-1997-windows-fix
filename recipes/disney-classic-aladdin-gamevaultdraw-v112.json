@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "id": "disney-classic-aladdin-gamevaultdraw-v112",
+  "description": "Portable Windows edition of Disney's Aladdin with GameVaultDraw 1.1.2 and native launcher",
+  "target": {
+    "executable": "ALADDINW.EXE",
+    "sha256": "77B7B7B03F80BAD087E23217D4CDCA51A5F93C550D0FF290B22EC7FB4694C209"
+  },
+  "components": [
+    {
+      "source": "ddraw.dll",
+      "sha256": "F60CDC156F40BB29866618D9AB2DEB9057E5C7B6A94939F37CDDD85A9106C45C",
+      "destination": "ddraw.dll"
+    },
+    {
+      "source": "GameVaultDraw.ini",
+      "sha256": "57E0DF9C9C29CC8B147D400C917171ABACB6AC21DB5B01B758DCA07396E58167",
+      "destination": "GameVaultDraw.ini"
+    },
+    {
+      "source": "Play Aladdin.exe",
+      "sha256": "6DF132AACFDFBBBAE3728BE6F208ABDEDFA0BE7C08E90462B35F9F48A9A361D8",
+      "destination": "Play Aladdin.exe"
+    }
+  ],
+  "binary_patches": [
+    {
+      "file": "ALADDINW.EXE",
+      "offset": 11787,
+      "expected_hex": "73",
+      "replacement_hex": "EB",
+      "output_sha256": "4AFBFA0D4C7BA1C00E5172B9162EF94A28D5E93F162CF88B155951BE70A71151"
+    },
+    {
+      "file": "ALADDINW.EXE",
+      "offset": 35218,
+      "expected_hex": "FA",
+      "replacement_hex": "90",
+      "output_sha256": "23D2F2FC2F3CEA161EDE3938A1012BAB0C3A7AC565341CC3CDC960F9DCEDE219"
+    },
+    {
+      "file": "ALADDINW.EXE",
+      "offset": 35232,
+      "expected_hex": "FB",
+      "replacement_hex": "90",
+      "output_sha256": "8CE7F608D1BFEF1F67B5495D33653ED602B1CA05BBFC521255D9D6DF48FB4740"
+    }
+  ],
+  "launch": {
+    "executable": "Play Aladdin.exe"
+  }
+}

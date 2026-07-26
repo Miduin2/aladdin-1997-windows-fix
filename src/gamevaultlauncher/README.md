@@ -17,9 +17,9 @@ Responsibilities:
 
 Neither a console window nor PowerShell is part of the normal launch flow.
 
-Launcher version 1.1.1 is part of GameVaultDraw 1.1.1 and was validated with
+Launcher version 1.1.2 is part of GameVaultDraw 1.1.2 and was validated with
 the original game. Its official SHA-256 is
-`44BA3FB33C0FFF64E31198CD5FE6810E10BF5C059656F06F020B620279FDF300`.
+`6DF132AACFDFBBBAE3728BE6F208ABDEDFA0BE7C08E90462B35F9F48A9A361D8`.
 
 The public build does not embed an icon extracted from the original game, so
 the patch can be distributed without including Disney artwork.

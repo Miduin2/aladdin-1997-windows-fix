@@ -32,8 +32,8 @@ The exact source snapshots are under `src/gamevaultdraw` and
 `src/gamevaultlauncher`. Both are 32-bit C++ projects built with Visual
 Studio 2022 Build Tools and the Windows SDK. Run each `build.cmd`; then compare:
 
-- `ddraw.dll`: `B2200A365FB371DE34FFD87734086B4D3DF4174FED85F91FDD2E0B6660C05C27`
-- `Play Aladdin.exe`: `44BA3FB33C0FFF64E31198CD5FE6810E10BF5C059656F06F020B620279FDF300`
+- `ddraw.dll`: `F60CDC156F40BB29866618D9AB2DEB9057E5C7B6A94939F37CDDD85A9106C45C`
+- `Play Aladdin.exe`: `6DF132AACFDFBBBAE3728BE6F208ABDEDFA0BE7C08E90462B35F9F48A9A361D8`
 
 The public projects disable PE debug information so local PDB paths are not
 embedded and pass `/Brepro` to the linker. Repeated clean builds with the

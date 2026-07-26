@@ -8,9 +8,9 @@ $ErrorActionPreference = 'Stop'
 $originalSha256 = '77B7B7B03F80BAD087E23217D4CDCA51A5F93C550D0FF290B22EC7FB4694C209'
 $patchedSha256 = '8CE7F608D1BFEF1F67B5495D33653ED602B1CA05BBFC521255D9D6DF48FB4740'
 $componentHashes = @{
-    'ddraw.dll' = 'B2200A365FB371DE34FFD87734086B4D3DF4174FED85F91FDD2E0B6660C05C27'
+    'ddraw.dll' = 'F60CDC156F40BB29866618D9AB2DEB9057E5C7B6A94939F37CDDD85A9106C45C'
     'GameVaultDraw.ini' = '57E0DF9C9C29CC8B147D400C917171ABACB6AC21DB5B01B758DCA07396E58167'
-    'Play Aladdin.exe' = '44BA3FB33C0FFF64E31198CD5FE6810E10BF5C059656F06F020B620279FDF300'
+    'Play Aladdin.exe' = '6DF132AACFDFBBBAE3728BE6F208ABDEDFA0BE7C08E90462B35F9F48A9A361D8'
 }
 $edits = @(
     @{ Offset = 0x2E0B; Before = 0x73; After = 0xEB; Purpose = 'colour-depth check' },
@@ -38,13 +38,13 @@ try {
         }
         $actual = Get-Sha256 $componentPath
         if ($actual -ne $component.Value) {
-            throw "Component $($component.Key) does not match the official version 1.1.1.`nExpected: $($component.Value)`nActual: $actual"
+            throw "Component $($component.Key) does not match the official version 1.1.2.`nExpected: $($component.Value)`nActual: $actual"
         }
     }
 
     $targetHash = Get-Sha256 $target
     if ($targetHash -eq $patchedSha256) {
-        Write-Host 'The GameVaultDraw 1.1.1 patch is already installed.' -ForegroundColor Green
+        Write-Host 'The GameVaultDraw 1.1.2 patch is already installed.' -ForegroundColor Green
         Write-Host 'To play, open: Play Aladdin.exe'
         exit 0
     }

@@ -123,6 +123,16 @@ HBITMAP CreateScaledPreviewBitmap(const int targetWidth, const int targetHeight)
 LRESULT CALLBACK PreviewWindowProcedure(
     const HWND window, const UINT message, const WPARAM wParam, const LPARAM lParam)
 {
+    if (message == WM_SETCURSOR && IsWindowEnabled(window))
+    {
+        // The original game leaves Windows' animated busy cursor assigned to
+        // its render window. Hide it across the enabled game window, including
+        // its invisible resize frame. Modal dialogs disable their owner and
+        // therefore retain their normal cursor behavior.
+        SetCursor(nullptr);
+        return TRUE;
+    }
+
     // Keep this diagnostic deliberately narrow: the original title has both
     // an internal keyboard-driven menu and a native Win32 menu.  Logging the
     // messages at the already-installed subclass lets us prove whether a key
